@@ -19,5 +19,5 @@ We're working on several subprojects:
    * [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) CEUR Workshop Proceedings (CEUR-WS.org), 2023.
   
 4. We propose to process (using spaCy) as many of the open-source maths books recommended by AIM (American Institute of Mathematics)  in their [Open Textbook Initiative](https://textbooks.aimath.org/). This is work with Andrea Ferreira, see:
-   *  [Linear Algebra](https://github.com/andreago9/MathCorpus-LAHefferonPDF)
-   *  [Abstract Algebra](https://github.com/andreago9/MathCorpus-AATA) 
+   *  [Linear Algebra](https://github.com/andreago9/MathCorpus-LAHefferonPDF),  Hefferon
+   *  [Abstract Algebra](https://github.com/andreago9/MathCorpus-AATA), Judson 
