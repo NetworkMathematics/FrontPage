@@ -16,4 +16,5 @@ We're working on several subprojects:
   
 4. We propose to NLP process, using spaCy, as many of the open-source maths books recommended by the AIM (American Institute of Mathematics)  in their [Open Textbook Initiative](https://textbooks.aimath.org/). This is work with Andrea Ferreira and others, see:
    *  [Linear Algebra](https://github.com/andreago9/MathCorpus-LAHefferonPDF),  Hefferon
-   *  [Abstract Algebra](https://github.com/andreago9/MathCorpus-AATA), Judson 
+   *  [Abstract Algebra](https://github.com/andreago9/MathCorpus-AATA), Judson
+   *  [Discrete Mathematics: An Open Introduction](https://github.com/andreago9/DMLevin), Levin
