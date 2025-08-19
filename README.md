@@ -1,6 +1,6 @@
 # Network Mathematics.
 
-Network Mathematics is a broad project to apply the modern tools of NLP and AI to the mathematical literature. That is to apply to mathematics written in what is now called "informal"  style, the tools of AI that would allow it to become "formal mathematics", mathematics as understood by "proof assistants" and "theorem provers".
+Network Mathematics is a broad project to apply the modern tools of NLP and AI to the mathematical literature. That is to apply to mathematics written in what is now called "non-formal"  style, the tools of AI that would allow it to become "formal mathematics", mathematics as understood by "proof assistants" and "theorem provers".
 
 We're working on several subprojects: 
 
@@ -17,7 +17,7 @@ We're working on several subprojects:
 4. MathAnnotator is a tool to help annotate math concepts in sentences. The tool is available at https://gaoq111.github.io/math_concept_annotation/.  Our preprint is:
    * [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) CEUR Workshop Proceedings (CEUR-WS.org), 2023.
   
-5. MathLit: we propose to NLP process, using spaCy or any other off-the-self system, as many of the open-source maths books recommended by the AIM (American Institute of Mathematics)  in their [Open Textbook Initiative](https://textbooks.aimath.org/). This is work with Andrea Ferreira and others, see:
+5. MathLit: we propose to NLP process, using spaCy or any other off-the-shelf system, as many of the open-source maths books recommended by the AIM (American Institute of Mathematics)  in their [Open Textbook Initiative](https://textbooks.aimath.org/). This is work with Andrea Ferreira and others, see:
    *  [Linear Algebra](https://github.com/andreago9/MathCorpus-LAHefferonPDF),  Hefferon
    *  [Abstract Algebra](https://github.com/andreago9/MathCorpus-AATA), Judson
    *  [Discrete Mathematics: An Open Introduction](https://github.com/vcvpaiva/DMLevin), Levin
