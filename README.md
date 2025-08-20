@@ -5,7 +5,7 @@ Network Mathematics is a broad project to apply the modern tools of NLP and AI t
 We're working on several subprojects: 
 
 1. Parmesan, now called *[Mathoscope](http://www.jacobcollard.com/mathoscope/)*,  is a math assistant website built mostly by Jacob Collard. 
-   The system uses corpora derived from [TAC abstracts](https://github.com/ToposInstitute/tac-corpus), the [nLab](https://github.com/ToposInstitute/nlab-corpus), and Tom Leinster's book "Basic Category Theory" [(BCT)](https://github.com/ToposInstitute/CT-corpus).
+   The system uses corpora derived from [TAC abstracts](https://github.com/ToposInstitute/tac-corpus), the [nLab](https://github.com/ToposInstitute/nlab-corpus), and Tom Leinster's book "Basic Category Theory" [(BCT)](https://github.com/ToposInstitute/CT-corpus). We have a [COLING paper]() and three preprints on this work, using the old name.
    
    
 3. [MathGloss](https://mathgloss.github.io/MathGloss/) is a multisource glossary of concepts in mathematics built mostly by Lucy Horowitz. (You can see the glossary at  https://mathgloss.github.io/MathGloss/database).
@@ -21,7 +21,7 @@ We're working on several subprojects:
 6. MathNLI is a project to use Natural Language Inference over mathematical texts. This builds on work with Larry Moss, Hai Hu, and Katerina Kalouli on NLI for everyday language.
    * Our new preprint [Math Natural Language Inference: this should be easy!](https://arxiv.org/pdf/2507.23063) by V de Paiva, Q Gao, H Hu, P Kovalev, Y Liu, LS Moss, Z Qian is now on the arxiv
    
-7. MathLit: we propose to NLP process, using spaCy or any other off-the-shelf system, as many of the open-source maths books recommended by the AIM (American Institute of Mathematics)  in their [Open Textbook Initiative](https://textbooks.aimath.org/). This is work with Andrea Ferreira and others, see:
+7. MathLit: we propose to NLP-process, using spaCy or any other off-the-shelf system, as many of the open-source maths books recommended by the AIM (American Institute of Mathematics)  in their [Open Textbook Initiative](https://textbooks.aimath.org/) as possible. This is work with Andrea Ferreira and others, see:
    *  [Linear Algebra](https://github.com/andreago9/MathCorpus-LAHefferonPDF),  Hefferon
    *  [Abstract Algebra](https://github.com/andreago9/MathCorpus-AATA), Judson
    *  [Discrete Mathematics: An Open Introduction](https://github.com/vcvpaiva/DMLevin), Levin
