@@ -16,7 +16,7 @@ We're working on several subprojects:
   
    MathGloss was used in
    * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf) by A. Ranta.
-   * [AutoMathKG: The automated mathematical knowledge graph based on LLM and vector database](https://arxiv.org/abs/2505.13406)
+   * [AutoMathKG: The automated mathematical knowledge graph based on LLM and vector database](https://arxiv.org/abs/2505.13406) by R. Bian et al.
 
 5. MathAnnotator is a tool to help annotate math concepts in sentences. This is work with Larry Moss, (Bert) Qiyue Gao, and Pavel Kovalev.
    The tool is available at https://gaoq111.github.io/math_concept_annotation/.
