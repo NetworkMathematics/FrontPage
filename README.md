@@ -6,7 +6,7 @@ We're working on several subprojects:
 
 1. Parmesan, now called *[Mathoscope](http://www.jacobcollard.com/mathoscope/)*,  is a math assistant website built mostly by Jacob Collard. 
    The system uses corpora derived from [TAC abstracts](https://github.com/ToposInstitute/tac-corpus), the [nLab](https://github.com/ToposInstitute/nlab-corpus), and Tom Leinster's book "Basic Category Theory" [(BCT)](https://github.com/ToposInstitute/CT-corpus). We have a [COLING paper]() and three preprints on this work, using the old name.
-   * [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/pdf/2406.11577) J Collard, V de Paiva, E Subrahmanian
+   * [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/pdf/2406.11577) J Collard, V de Paiva, E Subrahmanian, 2024
    * [Parmesan: mathematical concept extraction for education](https://arxiv.org/pdf/2307.06699) J Collard, V de Paiva, E Subrahmanian, 2023
    * [Extracting mathematical concepts from text](https://arxiv.org/pdf/2208.13830), J Collard, V De Paiva, B Fong, E Subrahmanian, 2022
    
