@@ -23,7 +23,7 @@ We're working on several subprojects:
    Our preprint is:
    * [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) CEUR Workshop Proceedings (CEUR-WS.org), 2023.
      
-7. MathNLI is a project to use Natural Language Inference over mathematical texts. This builds on work with Katerina Kalouli, Larry Moss, Hai Hu, and Alex on NLI for everyday language.
+7. MathNLI is a project to use Natural Language Inference over mathematical texts. This builds on work with Katerina Kalouli, Larry Moss, Hai Hu, and Alex Webb on NLI for everyday language, see [Curing the SICK and other NLI maladies](https://direct.mit.edu/coli/article/49/1/199/113488/Curing-the-SICK-and-Other-NLI-Maladies), 2023.
    * Our new preprint [Math Natural Language Inference: this should be easy!](https://arxiv.org/pdf/2507.23063) by V de Paiva, Q Gao, H Hu, P Kovalev, Y Liu, LS Moss, Z Qian is now on the arxiv
    
 8. MathLit: we propose to NLP-process, using spaCy or any other off-the-shelf system, as many of the open-source maths books recommended by the AIM (American Institute of Mathematics)  in their [Open Textbook Initiative](https://textbooks.aimath.org/) as possible. This is work with Andrea Ferreira and others, see:
