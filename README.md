@@ -27,4 +27,4 @@ We're working on several subprojects:
    *  [Linear Algebra](https://github.com/andreago9/MathCorpus-LAHefferonPDF),  Hefferon
    *  [Abstract Algebra](https://github.com/andreago9/MathCorpus-AATA), Judson
    *  [Discrete Mathematics: An Open Introduction](https://github.com/vcvpaiva/DMLevin), Levin
-   *  [Compact Math Corpus](https://github.com/andreafer-uni/Compact-Math-Corpus)
+   *  [Compact Math Corpus](https://github.com/andreafer-uni/Compact-Math-Corpus), new [preprint](https://naloma.github.io/2025/papers/paper-5.pdf)! Aug 2025
