@@ -11,7 +11,7 @@ We're working on several subprojects:
    * [Extracting mathematical concepts from text](https://arxiv.org/pdf/2208.13830), J Collard, V De Paiva, B Fong, E Subrahmanian, 2022.
   
      
-  (videos W-NUT https://www.youtube.com/watch?v=-ZhZjMn1Zp LREC https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s)
+  (video: LREC https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s)
    
    
 3. [MathGloss](https://mathgloss.github.io/MathGloss/) is a multisource glossary of concepts in mathematics built mostly by Lucy Horowitz. (You can see the glossary at  https://mathgloss.github.io/MathGloss/database).
