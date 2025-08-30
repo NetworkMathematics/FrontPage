@@ -1,6 +1,6 @@
 # Network Mathematics.
 
-Network Mathematics is a broad project to apply the modern tools of NLP and AI to the mathematical literature. That is to apply to mathematics written in what is now called "non-formal"  style, the tools of AI that would allow it to become "formal mathematics", mathematics as understood by "proof assistants" and "theorem provers".
+Network Mathematics is a broad project to apply the modern tools of NLP and AI to the mathematical literature. That is to apply to mathematics written in what is now called "non-formal"  style, the tools of AI that would allow it to become "formal mathematics", mathematics as understood by "proof assistants" and "theorem provers". Some old blog posts about the project here.
 
 We're working on several subprojects: 
 
