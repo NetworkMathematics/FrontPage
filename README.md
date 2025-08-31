@@ -18,7 +18,7 @@ We're working on several subprojects:
    The initial work was presented at a [workshop associated with  CICM 2023](https://europroofnet.github.io/cambridge-2023/#horowitz). The preprint can be found at
    * [MathGloss: Building mathematical glossaries from text ](https://arxiv.org/abs/2311.12649), L Horowitz, V de Paiva, 2023.
   
-(video presentation at Hausdorff Institute, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg))
+(video presentation at Hausdorff Institute, Lucy Horowitz, Jul 15, 2024 [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg))
   
    MathGloss was used in
    * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf) by A. Ranta.
