@@ -52,9 +52,9 @@ It extends earlier work on NLI for everyday language, in collaboration with Kate
 
 Our new preprint:
 
-* Math Natural Language Inference: This Should Be Easy!, V. de Paiva, Q. Gao, H. Hu, P. Kovalev, Y. Liu, L. S. Moss, Z. Qian, 2025 ([arXiv](https://arxiv.org/pdf/2507.23063))
+* [Math Natural Language Inference: This Should Be Easy!](https://arxiv.org/pdf/2507.23063), V. de Paiva, Q. Gao, H. Hu, P. Kovalev, Y. Liu, L. S. Moss, Z. Qian, 2025 (arXiv)
 
-has been presented at STARSEM 2025.
+has been presented at [STARSEM 2025](https://starsem2025.github.io/schedule).
      
    
 ## MathLit
