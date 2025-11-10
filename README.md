@@ -12,7 +12,7 @@ The project has been presented in a COLING paper and three preprints under its o
 
 * [Mathematical Entities: Corpora and Benchmarks](https://aclanthology.org/2024.lrec-main.966.pdf), J. Collard, V. de Paiva, E. Subrahmanian, 2024
 
-* [Parmesan: Mathematical Concept Extraction for Education](), J. Collard, V. de Paiva, E. Subrahmanian, 2023
+* [Parmesan: Mathematical Concept Extraction for Education](https://arxiv.org/abs/2307.06699), J. Collard, V. de Paiva, E. Subrahmanian, 2023
 
 * [Extracting Mathematical Concepts from Text](https://aclanthology.org/2022.wnut-1.2/), J. Collard, V. de Paiva, B. Fong, E. Subrahmanian, 2022
 
@@ -22,6 +22,7 @@ Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](ht
 ## MathGloss
 
 MathGloss is a multi-source glossary of mathematical concepts, built primarily by Lucy Horowitz.
+
 Explore it at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.io/MathGloss/)
    
 The project was first presented at a CICM 2023 workshop; see the preprint:
