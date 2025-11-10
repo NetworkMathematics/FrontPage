@@ -10,11 +10,11 @@ We are developing several interconnected subprojects:
 Mathoscope is a mathematical assistant and knowledge graph project under development since 2021. It draws on corpora derived from Theory and Applications of Categories (TAC) abstracts, the nLab, and Tom Leinster’s Basic Category Theory.
 The project has been presented in a COLING paper and three preprints under its original name, Parmesan:
 
-* Mathematical Entities: Corpora and Benchmarks, J. Collard, V. de Paiva, E. Subrahmanian, 2024
+* [Mathematical Entities: Corpora and Benchmarks](https://aclanthology.org/2024.lrec-main.966.pdf), J. Collard, V. de Paiva, E. Subrahmanian, 2024
 
-* Parmesan: Mathematical Concept Extraction for Education, J. Collard, V. de Paiva, E. Subrahmanian, 2023
+* [Parmesan: Mathematical Concept Extraction for Education](), J. Collard, V. de Paiva, E. Subrahmanian, 2023
 
-* Extracting Mathematical Concepts from Text, J. Collard, V. de Paiva, B. Fong, E. Subrahmanian, 2022
+* [Extracting Mathematical Concepts from Text](https://aclanthology.org/2022.wnut-1.2/), J. Collard, V. de Paiva, B. Fong, E. Subrahmanian, 2022
 
 Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
      
