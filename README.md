@@ -27,7 +27,7 @@ Explore it at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.
    
 The project was first presented at a CICM 2023 workshop; see the preprint:
 
-* MathGloss: [Building Mathematical Glossaries from Text](), L. Horowitz, V. de Paiva, 2023
+* MathGloss: [Building Mathematical Glossaries from Text](https://arxiv.org/abs/2311.12649), L. Horowitz, V. de Paiva, 2023
 
 (Video presentation: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.)
 
