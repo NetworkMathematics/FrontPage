@@ -1,17 +1,24 @@
 # Network Mathematics.
 
-Network Mathematics is a broad project to apply the modern tools of NLP and AI to the mathematical literature. That is to apply to mathematics written in what is now called "non-formal"  style, the tools of AI that would allow it to become "formal mathematics", mathematics as understood by "proof assistants" and "theorem provers". Some old blog posts about the project [here](https://github.com/NetworkMathematics/FrontPage/blob/main/projects_problems.md).
+Network Mathematics is an ambitious project that applies modern tools from Natural Language Processing (NLP) and Artificial Intelligence (AI) to the mathematical literature. The goal is to bridge the gap between informal mathematics—as written in papers, textbooks, and lecture notes—and formal mathematics, as represented in proof assistants and theorem provers. In short, we aim to help machines read and reason about mathematics written in natural language.
+(Some early thoughts about the project can be found in older blog posts.)
 
-We're working on several subprojects: 
+We are developing several interconnected subprojects:
 
-1. Parmesan, now called *[Mathoscope](http://www.jacobcollard.com/mathoscope/)*,  is a math assistant website project in construction since 2021. 
-   The system uses corpora derived from [TAC abstracts](https://github.com/ToposInstitute/tac-corpus), the [nLab](https://github.com/ToposInstitute/nlab-corpus), and Tom Leinster's book "Basic Category Theory" [(BCT)](https://github.com/ToposInstitute/CT-corpus). We have a [COLING paper]() and three preprints on this work, using the old name.
-   * [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/pdf/2406.11577) J Collard, V de Paiva, E Subrahmanian, 2024
-   * [Parmesan: mathematical concept extraction for education](https://arxiv.org/pdf/2307.06699) J Collard, V de Paiva, E Subrahmanian, 2023
-   * [Extracting mathematical concepts from text](https://arxiv.org/pdf/2208.13830), J Collard, V De Paiva, B Fong, E Subrahmanian, 2022.
-  
+## Mathoscope (formerly Parmesan)
+
+Mathoscope is a mathematical assistant and knowledge graph project under development since 2021. It draws on corpora derived from Theory and Applications of Categories (TAC) abstracts, the nLab, and Tom Leinster’s Basic Category Theory.
+The project has been presented in a COLING paper and three preprints under its original name, Parmesan:
+
+* Mathematical Entities: Corpora and Benchmarks, J. Collard, V. de Paiva, E. Subrahmanian, 2024
+
+* Parmesan: Mathematical Concept Extraction for Education, J. Collard, V. de Paiva, E. Subrahmanian, 2023
+
+* Extracting Mathematical Concepts from Text, J. Collard, V. de Paiva, B. Fong, E. Subrahmanian, 2022
+
+Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
      
-  (videos: LREC https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s, W-NUT https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
+
    
    
 2. [MathGloss](https://mathgloss.github.io/MathGloss/) is a multisource glossary of concepts in mathematics built mostly by Lucy Horowitz. (You can see the glossary at  https://mathgloss.github.io/MathGloss/database).
