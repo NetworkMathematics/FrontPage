@@ -19,17 +19,22 @@ The project has been presented in a COLING paper and three preprints under its o
 Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
      
 
+ ## MathGloss
+
+MathGloss is a multi-source glossary of mathematical concepts, built primarily by Lucy Horowitz.
+Explore it at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.io/MathGloss/)
    
-   
-2. [MathGloss](https://mathgloss.github.io/MathGloss/) is a multisource glossary of concepts in mathematics built mostly by Lucy Horowitz. (You can see the glossary at  https://mathgloss.github.io/MathGloss/database).
-   The initial work was presented at a [workshop associated with  CICM 2023](https://europroofnet.github.io/cambridge-2023/#horowitz). The preprint can be found at
-   * [MathGloss: Building mathematical glossaries from text ](https://arxiv.org/abs/2311.12649), L Horowitz, V de Paiva, 2023.
-  
-(video presentation at Hausdorff Institute, Lucy Horowitz, Jul 15, 2024 [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg))
-  
-   MathGloss was used in
-   * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf) by A. Ranta.
-   * [AutoMathKG: The automated mathematical knowledge graph based on LLM and vector database](https://arxiv.org/abs/2505.13406) by R. Bian et al.
+The project was first presented at a CICM 2023 workshop; see the preprint:
+
+* MathGloss: [Building Mathematical Glossaries from Text](), L. Horowitz, V. de Paiva, 2023
+
+(Video presentation: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.)
+
+MathGloss has since been used in:
+
+* [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf), A. Ranta, 2024.
+
+* [AutoMathKG: The Automated Mathematical Knowledge Graph Based on LLM and Vector Database](https://arxiv.org/abs/2505.13406), R. Bian et al., 2025
 
 3. MathAnnotator is a tool to help annotate math concepts in sentences. This is work with Larry Moss, (Bert) Qiyue Gao, and Pavel Kovalev.
    The tool is available at https://gaoq111.github.io/math_concept_annotation/.
