@@ -59,7 +59,7 @@ has been presented at [STARSEM 2025](https://starsem2025.github.io/schedule).
    
 ## MathLit
 
-MathLit aims to process open-source mathematics textbooks—especially those recommended by the American Institute of Mathematics (AIM) Open Textbook Initiative—using NLP pipelines such as spaCy.
+MathLit aims to process open-source mathematics textbooks—especially those recommended by the American Institute of Mathematics (AIM) [Open Textbook Initiative](https://textbooks.aimath.org/)—using NLP pipelines such as spaCy or UDpipe.
 
 Current materials include:
 
