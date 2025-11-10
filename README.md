@@ -19,7 +19,7 @@ The project has been presented in a COLING paper and three preprints under its o
 Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
      
 
- ## MathGloss
+## MathGloss
 
 MathGloss is a multi-source glossary of mathematical concepts, built primarily by Lucy Horowitz.
 Explore it at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.io/MathGloss/)
@@ -36,10 +36,15 @@ MathGloss has since been used in:
 
 * [AutoMathKG: The Automated Mathematical Knowledge Graph Based on LLM and Vector Database](https://arxiv.org/abs/2505.13406), R. Bian et al., 2025
 
-3. MathAnnotator is a tool to help annotate math concepts in sentences. This is work with Larry Moss, (Bert) Qiyue Gao, and Pavel Kovalev.
-   The tool is available at https://gaoq111.github.io/math_concept_annotation/.
+## MathAnnotator
+
+MathAnnotator is a web-based tool for manually annotating mathematical concepts in text, developed with Larry Moss, Qiyue (Bert) Gao, and Pavel Kovalev.
+Try it at [https://gaoq111.github.io/math_concept_annotation/](https://gaoq111.github.io/math_concept_annotation/).
+
    Our preprint is:
    * [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) CEUR Workshop Proceedings (CEUR-WS.org), 2023.
+
+## MathNLI
      
 4. MathNLI is a project to use Natural Language Inference over mathematical texts. This builds on work with Katerina Kalouli, Larry Moss, Hai Hu, and Alex Webb on NLI for everyday language, see [Curing the SICK and other NLI maladies](https://direct.mit.edu/coli/article/49/1/199/113488/Curing-the-SICK-and-Other-NLI-Maladies), 2023.
    * Our new preprint [Math Natural Language Inference: this should be easy!](https://arxiv.org/pdf/2507.23063) by V de Paiva, Q Gao, H Hu, P Kovalev, Y Liu, LS Moss, Z Qian is now on the arxiv
