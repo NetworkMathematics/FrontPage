@@ -118,22 +118,22 @@ This comparison would be far more meaningful than evaluating Trouver against gen
    
    This shouldn't be too difficult, if we insist on a limited number of pages, say 20 at max.
 
-    It might require some bureucratic work to pay for the use of the LLMs in question. We continue with our suggestion that the "Silver truth" is what the top LLMs agree on. and maybe we only want some verified people annotating (e.g. Hai's students plus us). This could be adevelopment from the first project, or independent of that.
+    It might require some bureaucratic work to pay for the use of the LLMs in question. We continue with our suggestion that the "Silver truth" is what the top LLMs agree on. And maybe we only want some verified people annotating (e.g. Hai's students plus us). This could be adevelopment from the first project, or independent of that.
 
-   4. ### Glossary from Wikipedia
+4. ### Glossary from Wikipedia
       A simple project should be stitching together the 36 math glossaries from Wikipedia, available from https://en.wikipedia.org/wiki/Category:Glossaries_of_mathematics and collecting the definitions offered. This is not as easy as one might think, as repetitions will undoubtedly happen and choices will have to be made. But this might be good preparation for stitching together different human-curated resources, which also needs to be done.
 
       Similarly, but more difficult, try to ascertain the real size of the Maths Portal in Wikipedia.
       Calculations I have attempted.
      * From the query "https://tools.wmflabs.org/enwp10/cgi-bin/list2.fcgi?run=yes&projecta=
 Mathematics", we obtain a page with 32K mathconcepts in Wikipedia, actually 32115 pages. (see the paper [Modelling the Way Mathematics Is Actually Done](https://dave.murray-rust.org/paper_store/corneli2017ModellingWay.pdf), 2017.)
-     * (with Lucy Horowitz) Using SQL on Wikidata, nodes connected to "mathematical concept" ( mathematical concept (Q24034552) )produced 300K concepts, within 5 hops. Not a caseof 1 hop better/more important/relevant concepts.
+     * (with Lucy Horowitz) Using SQL on Wikidata, nodes connected to "mathematical concept" (mathematical concept (Q24034552)) produced 300K concepts, within 5 hops. However, this is not a case of one hop better/more important/more relevant concept; almost the opposite. 
 
  5. ### Misc other projects
 
     Several other ideas could be written.
     * Extracting logical structure (using systems for NLP argumentation) to join in with our NLI project or with more general semantics of math text.     * Try to do something with math causality, as Bert and I were doing with Katrine Thoft.
-    * Use David Wadden's  "Fact or Fiction" approach to verify mathematical claims, potentially using their existing work on LLMs and consensus as a gold standard. 
+    * Use David Wadden's  [Fact or Fiction](https://aclanthology.org/2020.emnlp-main.609/) approach to verify mathematical claims, potentially using their existing work on LLMs and consensus as a gold standard. 
     * Verify the quality of coreference in our "big" NLI corpus ~1200 pairs
     * If we had our comprehensive vocabulary of mathematics(CVM) which kinds of questions would it help us answer? clearlythe questions of the form "What is X?" (whereX isa mathematical concept. and (not-so clearly, but possibly) questions of the form "How are X and Y related?"  where Xand Y are mathematical concepts.  More interesting  would be to be able to answer questions of the form "What is the analogous of theorem X for the subfield Y?". For example, "duality induced by negation in classical propositional logic is analogous to duality of finite-dimensional vector spaces". What else  would we hope to have answered? what would be the "low-hanging fruit" theorems?
 
