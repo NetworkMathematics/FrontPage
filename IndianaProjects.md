@@ -1,6 +1,6 @@
-##Indiana Possible Projects
+## Indiana Possible Projects
 
-1. #MathWordNet
+1. ### MathWordNet
   
    Our LLM-extracted database of terms (needs a name, I'm suggesting MathWordNet) and more work.
 
