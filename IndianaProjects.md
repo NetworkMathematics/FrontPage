@@ -1,4 +1,4 @@
-## Indiana Possible Projects
+## Indiana (Possible) Projects
 
 1. ### MathWordNet
   
