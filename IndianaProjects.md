@@ -110,7 +110,16 @@ This gives us:
 
 This comparison would be far more meaningful than evaluating Trouver against generic NLP metrics.
 
-3. ### MathAnnotator for all
+3. ### MathAnnotator for all texts
 
-   Our 2023 preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) has an annotator prototype that depends on people only annotating math texts that we have processed before. It would be nice to provide a service where people could annotate their own files and where we could benefit from their work, but aggregating the new concepts that they checked.
-   This shouldn't be too difficult, if we insist on a limited number of pages, say 20 at max. IT might require some bureucratic work to payfor the use of the LLMs in question, if we continue with our suggestion that the "Silver truth" is what the top LLMs agree on.
+   Our 2023 preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) has an annotator prototype [MathAnnotator](https://gaoq111.github.io/math_concept_annotation/), created by Bert Gao that only works for some people annotating math texts that we have processed before.
+
+   It would be nice to provide a service where other people could annotate their own files and where we could benefit from their work, by aggregating the new concepts that they checked.
+   
+   This shouldn't be too difficult, if we insist on a limited number of pages, say 20 at max.
+
+    It might require some bureucratic work to pay for the use of the LLMs in question. We continue with our suggestion that the "Silver truth" is what the top LLMs agree on. and maybe we only want some verified people annotating (e.g. Hai's students plus us). This could be adevelopment from the first project, or independent of that.
+
+ 4. ### Misc projects
+
+    Several other ideas could be written in the direction of extracting logical structure (using systems for NLP argumentation) to join in with our NLI project or with more general semantics of math text. In particular I'd love to try to do something with math causality, as Bert and I were doing with Katrine Thoft. But 4 small projects seem enough to begin with.
