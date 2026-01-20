@@ -49,8 +49,28 @@
    2. MathGloss almost 5K terms (without official definitions, the definition is implicitly the sum of the information in the human-curated resources HCR)
    3. Wolfram MathWorld 13k concepts, which can onlybe used indirectly through Wikidata, per license regulations.
   
-2. ### Trouver+KnowTex+LLMs
+2. ### Trouver+KnowTex+nLab
 
-   [KnowTex](https://github.com/ElifUskuplu/KnowTex) by [Elif Uskuplu](), Larry Moss and myself is a project to help people understand mathematical text by explaining its logical structure using graphs. The logical structure is explained by the authors of the mathematical text, and their use of \LaTeX macros.
+[KnowTex](https://github.com/ElifUskuplu/KnowTex) by [Elif Uskuplu](https://elifuskuplu.github.io/), Larry Moss and myself is a project to help people understand mathematical text by explaining its logical structure using graphs. 
+The logical structure is explained by the authors of the mathematical text, and their use of LaTeX macros. The system is inspired by Massot's BluePrint for Lean, but does not require files in preText format, so it's easier on the human mathematician.
 
-   
+Lean's Blueprint describes the logical structure of a mathematical text, but it also maps it into Lean components (to help with formalization), so it's dedicated to a specific interactive theorem prover, Lean.  Massot generalized it, removing the component mapping to Lean, but kept the preText dependency.
+(This is, by and large, a good dependency, as preText can  output several formats besides pdf, including Braille.) But it's not easy to transform a latex file into a preText file, and this is one of the advantages of KnowTex.
+
+A very different approach is taken by [Trouver](https://github.com/hyunjongkimmath/trouver) by [Hyun Jong Kim.](https://sites.google.com/view/hyunjongkimmath/), a number theorist.
+Trouver uses machine learning to 'discover' which bits of a mathematical text are definitions, which are results, which are explanations, examples, etc. 
+For people like us, trying to map out the whole of mathematical knowledge, this is much better, as it can be applied to any math pdf you want. But it's also worse, from the point of view that there are no guarantees at all that machine learning is doing the correct thing. At least so far.
+
+The idea of this preliminary project would be to put KnowTex and Trouver together, to get some metric for verification, using the nLab corpus.
+
+ Why nLab is special here.
+The nLab corpus sits in a unique middle position: * Informal but highly structured
+* Definition-heavy
+*Concept-centric rather than theorem-centric
+* Rich in narrative explanation
+
+
+nLab pages do not have explicit \uses markup (as KnowTex needs).
+But they do have very strong rhetorical and structural cues.
+
+This makes nLab a perfect testbed for automatic vs explicit structure.
