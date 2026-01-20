@@ -7,16 +7,17 @@
    Our work, described in the spreadsheet in https://docs.google.com/spreadsheets/d/1jLzuvuaLIcRTIQPwQ65fL3o9gzasplJ52eEUFJhhMSk/edit?gid=1391563495#gid=1391563495
    is not working for several reasons.
 
-   Let us try to describe the plan and what doesn't work.
+   Let us try to describe the [plan](https://docs.google.com/document/d/1jodfe-GR7Iz6AfOXsdsDMnGaAU28xGsu8xiG1UUPXns/edit?tab=t.0#heading=h.qxoy9sgivi53) and what doesn't work.
 
-   The plan:
-    was to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS, just as in our NLi project in
-   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf) and then collect them into a database of terms.
-   These would be compared to terms in 3human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
+   The plan was:
+   * to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS, just as in our NLi project in
+   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf).
+   * then collect the terms into a database to be distributed to the public.
+   * These would be compared to terms in 3 human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
    
    That work, like Mathoscope, did not produce a glossary of mathematical concepts, though, which was our original goal.
    
-   Such a glossary should be useful not only for NLI, but also for summarization, question-answering, and to help formalization and informalization projects.
+   Such a glossary should be useful not only for NLI, but also for math summarization, math question-answering, and to help formalization and informalization projects.
 
    To quote from Berlioz's phd thesis (Pittsburgh 2022): "A major goal of the international math community is to obtain tools for the automated processing and
    transformation of mathematical documents. These tools do not currently exist in a satisfactory form, and extensive research is oriented towards improving this.
