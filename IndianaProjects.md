@@ -18,10 +18,11 @@
    
    Such a glossary should be useful not only for NLI but also for math summarization, math question-answering, and to help formalization and informalization projects, amongst other projects.
 
-   To quote from [Berlioz's phd thesis](https://d-scholarship.pitt.edu/43650/) (Pittsburgh 2022): "A major goal of the international math community is to obtain tools for the automated processing and
-   transformation of mathematical documents. These tools do not currently exist in a satisfactory form, and extensive research is oriented towards improving this.
-   [The Formal Abstracts Project aims to provide mathematicians with software tools for stating their research results in a human/machine readable format amenable to
-   formal verification. In order to achieve this goal, the Formal Abstracts Project has recognized the need for
+   To quote from [Berlioz's phd thesis](https://d-scholarship.pitt.edu/43650/) (Pittsburgh 2022): "A major goal of the international math community is to obtain tools for the automated processing and   transformation of mathematical documents. These tools do not currently exist in a satisfactory form, and extensive research is oriented towards improving this.
+   
+   [The Formal Abstracts Project aims to provide mathematicians with software tools for stating their research results in a human/machine readable format amenable to  formal verification.]
+
+    In order to achieve this goal, the Formal Abstracts Project has recognized the need for
    (1) a comprehensive vocabulary of mathematics, in order to state research results, and for
    (2) improved automated reasoning tools to aid in processing and formally verifying those statements."
 
@@ -47,6 +48,6 @@
    2. MathGloss almost 5Kterms without definitions
    3. Wolfram MathWorld 13k concepts
   
-2. #Trouver+KnowTex+LLMs
+3. #Trouver+KnowTex+LLMs
 
    
