@@ -122,4 +122,10 @@ This comparison would be far more meaningful than evaluating Trouver against gen
 
  4. ### Misc projects
 
-    Several other ideas could be written in the direction of extracting logical structure (using systems for NLP argumentation) to join in with our NLI project or with more general semantics of math text. In particular I'd love to try to do something with math causality, as Bert and I were doing with Katrine Thoft. But 4 small projects seem enough to begin with.
+    Several other ideas could be written.
+    * Extracting logical structure (using systems for NLP argumentation) to join in with our NLI project or with more general semantics of math text.     * Try to do something with math causality, as Bert and I were doing with Katrine Thoft.
+    * Use David Wadden's  "Fact or Fiction" approach to verify mathematical claims, potentially using their existing work on LLMs and consensus as a gold standard. 
+    * Verify the quality of coreference in our "big" NLI corpus ~1200 pairs
+    * If we had our comprehensive vocabulary of mathematics(CVM) which kinds of questions would it help us answer? clearlythe questions of the form "What is X?" (whereX isa mathematical concept. and (not-so clearly, but possibly) questions of the form "How are X and Y related?"  where Xand Y are mathematical concepts.  More interesting  would be to be able to answer questions of the form "What is the analogous of theorem X for the subfield Y?". For example, "duality induced by negation in classical propositional logic is analogous to duality of finite-dimensional vector spaces". What else  would we hope to have answered? what would be the "low-hanging fruit" theorems?
+
+    But 4 small projects seem enough to begin with.
