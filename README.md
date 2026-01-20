@@ -84,6 +84,7 @@ See her NALOMA [preprint](https://naloma.github.io/2025/papers/paper-5.pdf)
 
 KnowTex (created by [Elif Uskuplu](https://elifuskuplu.github.io/)) is a python package that helps us graph the logical structure  of mathematical papers.
 The system was presented in the workshop ALIGN2025, slides are [here](https://drive.google.com/file/d/1Nl6Fgl88tLSnqWFPGdcb814WMOytv_TX/view?usp=sharing).
-[pre-arxiv preprint]().
+
+Our [pre-arxiv preprint](https://github.com/NetworkMathematics/FrontPage/blob/main/KnowTexProject-1.pdf).
 
 
