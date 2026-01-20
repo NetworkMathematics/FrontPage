@@ -10,8 +10,7 @@
    Let us try to describe the [plan](https://docs.google.com/document/d/1jodfe-GR7Iz6AfOXsdsDMnGaAU28xGsu8xiG1UUPXns/edit?tab=t.0#heading=h.qxoy9sgivi53) and what doesn't work.
 
    The plan was:
-   * to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS, just as in our NLi project in
-   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf).
+   * to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS, just as in our NLi project described in   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf)
    * then collect the terms into a database to be distributed to the public.
    * These would be compared to terms in 3 human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
    
