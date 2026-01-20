@@ -17,6 +17,8 @@ The project has been presented in a COLING paper and three preprints under its o
 * [Extracting Mathematical Concepts from Text](https://aclanthology.org/2022.wnut-1.2/), J. Collard, V. de Paiva, B. Fong, E. Subrahmanian, W-NUT, 2022
 
 Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
+
+Working now (Jan 2026) on a knowledge graph from Mathoscope. Jacob is supposed to provide data and first write-up.
      
 
 ## MathGloss
@@ -31,11 +33,13 @@ The project was first presented at a CICM 2023 workshop; see the preprint:
 
 (Video presentation: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.)
 
-MathGloss has since been used in:
+MathGloss has since been used in (at least):
 
 * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf), A. Ranta, 2024.
 
 * [AutoMathKG: The Automated Mathematical Knowledge Graph Based on LLM and Vector Database](https://arxiv.org/abs/2505.13406), R. Bian et al., 2025
+
+  We need to produce a new write-up as MathGloss has grown from ~1700 concepts to almost 5K.
 
 ## MathAnnotator
 
@@ -75,3 +79,10 @@ Meanwhile, a different kind of effort is presented by Andrea Ferreira in
    *  [Compact Math Corpus](https://github.com/andreafer-uni/Compact-Math-Corpus).
      
 See her NALOMA [preprint](https://naloma.github.io/2025/papers/paper-5.pdf) 
+
+## KnowTex
+
+KnowTex (created by [Elif Uskuplu](https://elifuskuplu.github.io/)) is a python package that helps us graph the logical structure  of mathematical papers.
+The package was presented in the workshop ALIGN2025, slides are here.
+
+
