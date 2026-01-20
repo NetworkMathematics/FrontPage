@@ -49,7 +49,7 @@
    2. MathGloss almost 5K terms (without official definitions, the definition is implicitly the sum of the information in the human-curated resources HCR)
    3. Wolfram MathWorld 13k concepts, which can onlybe used indirectly through Wikidata, per license regulations.
   
-2. ### Trouver+KnowTex+nLab
+2. ### Trouver+KnowTex+nLab (with Elif)
 
 [KnowTex](https://github.com/ElifUskuplu/KnowTex) by [Elif Uskuplu](https://elifuskuplu.github.io/), Larry Moss and myself is a project to help people understand mathematical text by explaining its logical structure using graphs. 
 The logical structure is explained by the authors of the mathematical text, and their use of LaTeX macros. The system is inspired by Massot's BluePrint for Lean, but does not require files in preText format, so it's easier on the human mathematician.
@@ -97,15 +97,20 @@ For example: category theory basics, adjunctions, limits/colimits.
 Treat this as editorial ground truth.
 This gives us:
 
-* author-validated structure.
+      * author-validated structure.
 
 * Step 4: Compare!
-
-Now we can ask real research questions:
-* Which dependencies does Trouver reliably find?
-* Which does it systematically miss?
-* Where does it hallucinate edges?
-* Are narrative dependencies harder than proof dependencies?
-* Does symbol introduction help or hurt inference?
+  
+   Now we can ask real research questions:
+    * Which dependencies does Trouver reliably find?
+    * Which does it systematically miss?
+    * Where does it hallucinate edges?
+    * Are narrative dependencies harder than proof dependencies?
+    * Does symbol introduction help or hurt inference?
 
 This comparison would be far more meaningful than evaluating Trouver against generic NLP metrics.
+
+3. ### MathAnnotator for all
+
+   Our 2023 preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) has an annotator prototype that depends on people only annotating math texts that we have processed before. It would be nice to provide a service where people could annotate their own files and where we could benefit from their work, but aggregating the new concepts that they checked.
+   This shouldn't be too difficult, if we insist on a limited number of pages, say 20 at max. IT might require some bureucratic work to payfor the use of the LLMs in question, if we continue with our suggestion that the "Silver truth" is what the top LLMs agree on.
