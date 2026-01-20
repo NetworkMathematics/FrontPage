@@ -11,7 +11,7 @@
 
    The plan was:
    * to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS, just as in our NLi project described in   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf)
-   * then collect the terms into a database to be distributed to the public.
+   * Then collect the terms into a database to be distributed to the public.
    * These would be compared to terms in 3 human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
    
    That work, like [Mathoscope](http://www.jacobcollard.com/mathoscope/), did not produce a glossary of mathematical concepts, though, which was our original goal.
@@ -25,7 +25,7 @@
    [The Formal Abstracts Project aims to provide mathematicians with software tools for stating their research results in a human/machine readable format amenable to  formal verification.]
 
     In order to achieve this goal, the Formal Abstracts Project has recognized the need for
-   (1) a comprehensive vocabulary of mathematics, in order to state research results, and for
+   (1) a comprehensive vocabulary of mathematics (CVM), in order to state research results, and for
    (2) improved automated reasoning tools to aid in processing and formally verifying those statements."
    
 
@@ -45,7 +45,7 @@
    Something along the lines of the 6 items above would guarantee a reasonable "comprehensive vocabulary" (with definitions, this would be a comprehensive glossary) of mathematical terms.
 
     A posteriori verifications should also be done, comparing the terms obtained in our database with:
-   1. the merger of all mathematical glossaries from Wikipedia  (a smaller and possibly much easier project)
+   1. The merger of all mathematical glossaries from Wikipedia  (a smaller and possibly much easier project, see below project #4)
    2. MathGloss almost 5K terms (without official definitions, the definition is implicitly the sum of the information in the human-curated resources HCR)
    3. Wolfram MathWorld 13k concepts, which can onlybe used indirectly through Wikidata, per license regulations.
   
@@ -120,7 +120,16 @@ This comparison would be far more meaningful than evaluating Trouver against gen
 
     It might require some bureucratic work to pay for the use of the LLMs in question. We continue with our suggestion that the "Silver truth" is what the top LLMs agree on. and maybe we only want some verified people annotating (e.g. Hai's students plus us). This could be adevelopment from the first project, or independent of that.
 
- 4. ### Misc projects
+   4. ### Glossary from Wikipedia
+      A simple project should be stitching together the 36 math glossaries from Wikipedia, available from https://en.wikipedia.org/wiki/Category:Glossaries_of_mathematics and collecting the definitions offered. This is not as easy as one might think, as repetitions will undoubtedly happen and choices will have to be made. But this might be good preparation for stitching together different human-curated resources, which also needs to be done.
+
+      Similarly, but more difficult, try to ascertain the real size of the Maths Portal in Wikipedia.
+      Calculations I have attempted.
+     * From the query "https://tools.wmflabs.org/enwp10/cgi-bin/list2.fcgi?run=yes&projecta=
+Mathematics", we obtain a page with 32K mathconcepts in Wikipedia, actually 32115 pages. (see the paper [Modelling the Way Mathematics Is Actually Done](https://dave.murray-rust.org/paper_store/corneli2017ModellingWay.pdf), 2017.)
+     * (with Lucy Horowitz) Using SQL on Wikidata, nodes connected to "mathematical concept" ( mathematical concept (Q24034552) )produced 300K concepts, within 5 hops. Not a caseof 1 hop better/more important/relevant concepts.
+
+ 5. ### Misc other projects
 
     Several other ideas could be written.
     * Extracting logical structure (using systems for NLP argumentation) to join in with our NLI project or with more general semantics of math text.     * Try to do something with math causality, as Bert and I were doing with Katrine Thoft.
