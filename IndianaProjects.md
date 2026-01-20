@@ -18,36 +18,37 @@
    
    Such a glossary should be useful not only for NLI but also for math summarization, math question-answering, and to help formalization and informalization projects, amongst other projects.
 
-   To quote from [Berlioz's phd thesis](https://d-scholarship.pitt.edu/43650/) (Pittsburgh 2022): "A major goal of the international math community is to obtain tools for the automated processing and   transformation of mathematical documents. These tools do not currently exist in a satisfactory form, and extensive research is oriented towards improving this.
+   To quote from [Berlioz's phd thesis](https://d-scholarship.pitt.edu/43650/) (Pittsburgh 2022):
+
+   "A major goal of the international math community is to obtain tools for the automated processing and   transformation of mathematical documents. These tools do not currently exist in a satisfactory form, and extensive research is oriented towards improving this.
    
    [The Formal Abstracts Project aims to provide mathematicians with software tools for stating their research results in a human/machine readable format amenable to  formal verification.]
 
     In order to achieve this goal, the Formal Abstracts Project has recognized the need for
    (1) a comprehensive vocabulary of mathematics, in order to state research results, and for
    (2) improved automated reasoning tools to aid in processing and formally verifying those statements."
+   
 
-   We agree with the aims as stated above, but realize that the [Formal Abstracts project](https://github.com/formalabstracts/formalabstracts) has been dormant
-   (if not dead) for the last seven years. Still, it resonates with us that something like "a comprehensive vocabulary of mathematics", enabling us to state research results, is required.
+   We agree with the aims as stated above, but realize that the [Formal Abstracts project](https://github.com/formalabstracts/formalabstracts) has been dormant   (if not dead) for the last seven years. Still, it resonates with us that something like "a comprehensive vocabulary of mathematics", enabling us to state research results, is required.
 
-   But our spreadsheet depends not only of running our prompts in several LLMs, but also in describing and proving correct the other parts of the pipeline.
-   For instance, there might be mistakes when mapping terms to Wikidata, both of not finding concepts that are there and also of finding wrong concepts with the same name,
-   e.g. mapping into disambiguation pages in wikidata, or map "ring" algebraic structure to "ring" piece of jewelry.
+   Our spreadsheet depends not only on running our prompts in several LLMs, but also on describing and proving correct the other parts of the pipeline.
+   For instance, there might be mistakes when mapping terms to Wikidata, both of not finding concepts that are there and also of finding wrong concepts with the same name,   e.g. mapping into disambiguation pages in wikidata, or mapping "ring" algebraic structure to "ring" piece of jewelry.
 
-   So we need to provide some metrics and measurements to show:
-   1. LLMs mostly get good maht concepts;
+   So we need to provide some metrics and measurements to show how good our database of terms is:
+   1. need to show LLMs mostly get good math concepts;
    2. using the intersection of the outputs of LLMs is a good strategy (LLMs as judges)
-   3. our pipeline is increasingly monotonic, adding more human-curated resources improves the quality of the proposed terms
-   4. our terms have math definitions that make them unambiguous as much as possible
-   5. we do not have wrong terms
-   6. we have enoughgood terms
+   3. our pipeline is increasingly monotonic, i.e. adding more human-curated resources improves the quality of the proposed terms
+   4. our terms have math definitions that make them unambiguous, as much as possible
+   5. we do not have 'wrong' terms
+   6. we have enough 'good' terms
   
-   Something along the lines of the 6 items above would guarantee a reasonable "comprehensive vocabulary" (with definitions a comprehensive glossary of mathematical terms).
+   Something along the lines of the 6 items above would guarantee a reasonable "comprehensive vocabulary" (with definitions, this would be a comprehensive glossary) of mathematical terms.
 
-    A posteriori verifications should also be done, comparing the terms obtained from our database with:
-   1. the merger of all mathematical the glossaries from Wikipedia  (a smaller and possibly much easier project)
-   2. MathGloss almost 5Kterms without definitions
-   3. Wolfram MathWorld 13k concepts
+    A posteriori verifications should also be done, comparing the terms obtained in our database with:
+   1. the merger of all mathematical glossaries from Wikipedia  (a smaller and possibly much easier project)
+   2. MathGloss almost 5K terms (without official definitions, the definition is implicitly the sum of the information in the human-curated resources HCR)
+   3. Wolfram MathWorld 13k concepts, which can onlybe used indirectly through Wikidata, per license regulations.
   
-3. #Trouver+KnowTex+LLMs
+2. ### Trouver+KnowTex+LLMs
 
    
