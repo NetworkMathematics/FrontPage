@@ -15,11 +15,11 @@
    * then collect the terms into a database to be distributed to the public.
    * These would be compared to terms in 3 human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
    
-   That work, like Mathoscope, did not produce a glossary of mathematical concepts, though, which was our original goal.
+   That work, like [Mathoscope](http://www.jacobcollard.com/mathoscope/), did not produce a glossary of mathematical concepts, though, which was our original goal.
    
-   Such a glossary should be useful not only for NLI, but also for math summarization, math question-answering, and to help formalization and informalization projects.
+   Such a glossary should be useful not only for NLI but also for math summarization, math question-answering, and to help formalization and informalization projects, amongst other projects.
 
-   To quote from Berlioz's phd thesis (Pittsburgh 2022): "A major goal of the international math community is to obtain tools for the automated processing and
+   To quote from [Berlioz's phd thesis](https://d-scholarship.pitt.edu/43650/) (Pittsburgh 2022): "A major goal of the international math community is to obtain tools for the automated processing and
    transformation of mathematical documents. These tools do not currently exist in a satisfactory form, and extensive research is oriented towards improving this.
    [The Formal Abstracts Project aims to provide mathematicians with software tools for stating their research results in a human/machine readable format amenable to
    formal verification. In order to achieve this goal, the Formal Abstracts Project has recognized the need for
