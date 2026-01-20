@@ -64,13 +64,48 @@ For people like us, trying to map out the whole of mathematical knowledge, this 
 The idea of this preliminary project would be to put KnowTex and Trouver together, to get some metric for verification, using the nLab corpus.
 
  Why nLab is special here.
-The nLab corpus sits in a unique middle position: * Informal but highly structured
+The nLab corpus sits in a unique middle position: 
+* Informal but highly structured
 * Definition-heavy
-*Concept-centric rather than theorem-centric
+* Concept-centric rather than theorem-centric
 * Rich in narrative explanation
 
 
-nLab pages do not have explicit \uses markup (as KnowTex needs).
+nLab pages do not have explicit `\uses' markup (as KnowTex needs).
 But they do have very strong rhetorical and structural cues.
 
 This makes nLab a perfect testbed for automatic vs explicit structure.
+
+A concrete comparative experiment:
+
+* Step 1: Run trouver on nLab2020.
+  
+   Outputs:
+   * inferred dependency graphs,
+   * inferred concept/definition relationships,
+   * noisy but automatic structure.
+
+This gives us:
+* machine-inferred structure.
+
+* Step 2: Select a subset of nLab pages
+For example: category theory basics, adjunctions, limits/colimits.
+
+* Step 3: Hand-annotate a small gold subset using KnowTeX
+       * Add \uses and \proves manually.
+
+Treat this as editorial ground truth.
+This gives us:
+
+* author-validated structure.
+
+* Step 4: Compare!
+
+Now we can ask real research questions:
+* Which dependencies does Trouver reliably find?
+* Which does it systematically miss?
+* Where does it hallucinate edges?
+* Are narrative dependencies harder than proof dependencies?
+* Does symbol introduction help or hurt inference?
+
+This comparison would be far more meaningful than evaluating Trouver against generic NLP metrics.
