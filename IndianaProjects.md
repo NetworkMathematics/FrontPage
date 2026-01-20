@@ -51,4 +51,6 @@
   
 2. ### Trouver+KnowTex+LLMs
 
+   [KnowTex]() is a project to help people understand mathematical text by explaining its logical structure using graphs.
+
    
