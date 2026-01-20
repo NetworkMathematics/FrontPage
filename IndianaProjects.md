@@ -51,6 +51,6 @@
   
 2. ### Trouver+KnowTex+LLMs
 
-   [KnowTex]() is a project to help people understand mathematical text by explaining its logical structure using graphs.
+   [KnowTex](https://github.com/ElifUskuplu/KnowTex) by [Elif Uskuplu](), Larry Moss and myself is a project to help people understand mathematical text by explaining its logical structure using graphs. The logical structure is explained by the authors of the mathematical text, and their use of \LaTeX macros.
 
    
