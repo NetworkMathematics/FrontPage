@@ -36,6 +36,7 @@ The project was first presented at a CICM 2023 workshop; see the preprint:
 MathGloss has since been used in (at least):
 
 * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf), A. Ranta, 2024.
+  See also [Symbolic Informalization: Fluent, Productive, Multilingual](https://aitp-conference.org/2025/abstract/AITP_2025_paper_4.pdf), AITP 2025.
 
 * [AutoMathKG: The Automated Mathematical Knowledge Graph Based on LLM and Vector Database](https://arxiv.org/abs/2505.13406), R. Bian et al., 2025
 
