@@ -33,7 +33,7 @@
 
    We agree with the aims of the formal abstracts project as stated above, but realize that the [Formal Abstracts project](https://github.com/formalabstracts/formalabstracts) has been dormant   (if not dead) for the last seven years. Still, it resonates with us that something like "a comprehensive vocabulary of mathematics" (CVM), enabling us to state research results, is necessary.
 
-   Our spreadsheet in our new submission depends not only on running our prompts in several LLMs, but also on describing and proving correct the other parts of the pipeline.
+   The spreadsheet in our new submission depends not only on running our prompts in several LLMs, but also on describing and proving correct the other parts of the pipeline to obtain the pipeline.
    For instance, there might be mistakes when mapping terms to Wikidata, both of not finding concepts that are there and also of finding wrong concepts with the same name,   e.g. mapping into disambiguation pages in wikidata, or mapping "ring" algebraic structure to "ring" piece of jewelry.
 
    So we need to provide some metrics and measurements to show how good our database of terms is:
