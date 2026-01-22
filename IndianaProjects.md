@@ -5,7 +5,7 @@
    Our LLM-extracted database of math terms needs a name (I'm suggesting MathWordNet) and more work.
 
    Our work, described in the spreadsheet in https://docs.google.com/spreadsheets/d/1jLzuvuaLIcRTIQPwQ65fL3o9gzasplJ52eEUFJhhMSk/edit?gid=1391563495#gid=1391563495
-   is not working for several reasons.
+  has several problems.
 
    Let us try to describe the [plan](https://docs.google.com/document/d/1jodfe-GR7Iz6AfOXsdsDMnGaAU28xGsu8xiG1UUPXns/edit?tab=t.0#heading=h.qxoy9sgivi53) and what doesn't work.
 
