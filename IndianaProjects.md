@@ -10,13 +10,15 @@
    Let us try to describe the [plan](https://docs.google.com/document/d/1jodfe-GR7Iz6AfOXsdsDMnGaAU28xGsu8xiG1UUPXns/edit?tab=t.0#heading=h.qxoy9sgivi53) and what doesn't work.
 
    The plan was:
-   * to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS, just as in our NLi project described in   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf)
+   * to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS. (just as in our NLI project described in   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf))
    * Then collect the terms into a database to be distributed to the public.
    * These would be compared to terms in 3 human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
+   * the criteria for soundness of the mathematical concepts 'discovered' by the LLMs is their showing up in the human-curated resouces.
+   * augmentation with the definition of the term is desired.
    
-   That work, like [Mathoscope](http://www.jacobcollard.com/mathoscope/), did not produce a glossary of mathematical concepts, though, which was our original goal.
+   Our first joint work on [LLM-extracted concepts](https://arxiv.org/pdf/2309.00642), like [Mathoscope](http://www.jacobcollard.com/mathoscope/), did not produce a glossary of mathematical concepts, which was our original goal. (While MathGloss did produce a small (<5K) database of math concepts.)
    
-   Such a glossary should be useful not only for NLI but also for math summarization, math question-answering, and to help formalization and informalization projects, amongst other projects.
+   A real glossary should be useful not only for NLI but also for math summarization, math question-answering, and to help formalization and informalization projects, amongst other applications.
 
    To quote from [Berlioz's phd thesis](https://d-scholarship.pitt.edu/43650/) (Pittsburgh 2022):
 
@@ -25,13 +27,13 @@
    [The Formal Abstracts Project aims to provide mathematicians with software tools for stating their research results in a human/machine readable format amenable to  formal verification.]
 
     In order to achieve this goal, the Formal Abstracts Project has recognized the need for
-   (1) a comprehensive vocabulary of mathematics (CVM), in order to state research results, and for
+   (1) a comprehensive vocabulary of mathematics, in order to state research results, and for
    (2) improved automated reasoning tools to aid in processing and formally verifying those statements."
    
 
-   We agree with the aims as stated above, but realize that the [Formal Abstracts project](https://github.com/formalabstracts/formalabstracts) has been dormant   (if not dead) for the last seven years. Still, it resonates with us that something like "a comprehensive vocabulary of mathematics", enabling us to state research results, is required.
+   We agree with the aims of the formal abstracts project as stated above, but realize that the [Formal Abstracts project](https://github.com/formalabstracts/formalabstracts) has been dormant   (if not dead) for the last seven years. Still, it resonates with us that something like "a comprehensive vocabulary of mathematics" (CVM), enabling us to state research results, is necessary.
 
-   Our spreadsheet depends not only on running our prompts in several LLMs, but also on describing and proving correct the other parts of the pipeline.
+   Our spreadsheet in our new submission depends not only on running our prompts in several LLMs, but also on describing and proving correct the other parts of the pipeline.
    For instance, there might be mistakes when mapping terms to Wikidata, both of not finding concepts that are there and also of finding wrong concepts with the same name,   e.g. mapping into disambiguation pages in wikidata, or mapping "ring" algebraic structure to "ring" piece of jewelry.
 
    So we need to provide some metrics and measurements to show how good our database of terms is:
