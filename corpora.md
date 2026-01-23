@@ -1,5 +1,7 @@
 Mathematical corpora (and associated preprints)
 
+
+* [ProofPile](https://github.com/zhangir-azerbayev/proof-pile)
 * [Proofnet: Autoformalizing and formally proving undergraduate-level mathematics](https://arxiv.org/pdf/2302.12433)
 * [Openwebmath: An open dataset of high-quality mathematical web text](https://arxiv.org/abs/2310.06786)
 * [Mathematical Capabilities of ChatGPT](https://arxiv.org/pdf/2301.13867)
