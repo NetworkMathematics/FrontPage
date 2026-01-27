@@ -15,10 +15,11 @@ But it's not very easy to transform a latex file into a preText file, and this i
 I thought Trouver used machine learning to 'discover' which bits of a PDF mathematical text are definitions, which are results, which are explanations, examples, etc. I thought it transformed the whole latex into plain text and used classifiers for learning which bit was what.
 But after seeing its use on the Kim Algebra book, I think I had it all wrong.
 
-For people like us, trying to map out the whole of mathematical knowledge, this would be much better, as it could be applied to any math pdf you want, you don't need to have the latex source. But it's also worse, because if you classified a chunk as a definition, there would be no guaranties that another  chunk, exactly the same, would be classified as a definition again and connect to the first one. There is no notion of logical dependency between the chunks, that from the ML perspective are just atoms. the whole graph that Trouver creates is simply a fancy version of looking at the Table of Contents of the book itself. It does not have more information than "this chunk appears in this chapter". 
-(Also from the point of view that there are no guarantees at all that machine learning is doing the correct thing. At least so far.)
+For people trying to map out the whole of mathematical knowledge on the web into some computational system, my misunderstanding of Trouver would be much better, as it could be applied to any math pdf you wanted, you wouldn't need to have a LaTeX source. But it would be also much worse, because if you classified a chunk as a definition, there would be no guarantees that another  chunk, exactly the same, would be classified as a definition too and connected to the first one. 
+There is no notion of logical dependency between the chunks. The chunks (or nodes), from the ML perspective, are just atoms. The whole graph that Trouver creates is simply a fancy way of looking at the Table of Contents of the book itself. It does not have more information than "this chunk appears in this chapter". In particular you don't have a notion that a given definition is used in a give theorem, hence the theorem depends on the definition.
+(Also from the point of view that there are no guarantees at all that machine learning is doing the correct thing at all)
 
-I thought we could put KnowTex and Trouver together, to get some metric for verification, using the nLab corpus.
+I had thought we could put KnowTex and Trouver together to get some metrics for verification, using the nLab corpus.
 
 Why the nLab is good corpus for this:
 * Informal but highly structured
@@ -49,7 +50,7 @@ But IF we could get a "machine-inferred structure"
 * Step 4: Compare!
   
    Now we can ask real research questions:
-    * Which dependencies does Trouver reliably find?
+    * Which dependencies does Trouver reliably find? None is the answer, it only finds that a subsection is part of a chapter.
     * Which does it systematically miss?
     * Where does it hallucinate edges?
     * Are narrative dependencies harder than proof dependencies?
