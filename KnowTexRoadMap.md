@@ -1,13 +1,17 @@
 # KnowTex Roadmap
 
-[KnowTex](https://github.com/ElifUskuplu/KnowTex) by [Elif Uskuplu](https://elifuskuplu.github.io/), Larry Moss, and myself is a project to help people understand mathematical text by explaining its logical dependency structure using graphs. 
-The logical structure is explained by the authors of the mathematical text, and their use of LaTeX macros. The system is inspired by Massot's BluePrint for Lean, but does not require files in preText format, so it's easier for the human mathematician.
+* [KnowTex](https://github.com/ElifUskuplu/KnowTex) by [Elif Uskuplu](https://elifuskuplu.github.io/), Larry Moss, and myself is a project to help people understand mathematical text by explaining its logical dependency structure using graphs. 
+The logical structure is explained by the authors of the mathematical text, and their use of LaTeX macros. 
 
-Lean's Blueprint describes the logical structure of a mathematical text, but it also maps it into Lean components (to help with formalization), so it's dedicated to a specific interactive theorem prover, Lean.  Massot generalized it, removing the component mapping to Lean, but kept the preText dependency.
-(This is, by and large, a good dependency, as preText can  output several formats besides pdf, including Braille.) But it's not easy to transform a latex file into a preText file, and this is one of the advantages of KnowTex.
+The system is inspired by [Massot](https://www.imo.universite-paris-saclay.fr/~patrick.massot/en/)'s BluePrint for Lean, but does not require files in preText format, so it's easier for the human mathematician.
 
-A very different approach is taken by [Trouver](https://github.com/hyunjongkimmath/trouver) by [Hyun Jong Kim.](https://sites.google.com/view/hyunjongkimmath/), a number theorist.
-I thought Trouver used machine learning to 'discover' which bits of a mathematical text are definitions, which are results, which are explanations, examples, etc. I thought it transformed the whole latex into plain text and used classifiers for that. but after looking at its use on the Kim Algebra book, I think I got it all wrong.
+Lean's Blueprint describes the logical structure of a mathematical text, but it also maps it into Lean components (to help with formalization), so it's dedicated to a specific interactive theorem prover, Lean.  
+Massot generalized it, removing the component mapping to Lean, but kept the preText dependency.
+(This is, by and large, a good dependency, as preText can  output several formats besides pdf, including Braille.) But it's not so easy to transform a latex file into a preText file, and this is one of the advantages of KnowTex.
+
+* [Trouver](https://github.com/hyunjongkimmath/trouver) by [Hyun Jong Kim.](https://sites.google.com/view/hyunjongkimmath/), a number theorist is a very different approach.
+I thought Trouver used machine learning to 'discover' which bits of a PDF mathematical text are definitions, which are results, which are explanations, examples, etc. I thought it transformed the whole latex into plain text and used classifiers for learning which bit was what.
+But after seeing its use on the Kim Algebra book, I think I had it all wrong.
 
 For people like us, trying to map out the whole of mathematical knowledge, this would be much better, as it could be applied to any math pdf you want, you don't need to have the latex source. But it's also worse, because if you classified a chunk as a definition, there would be no guaranties that another  chunk, exactly the same, would be classified as a definition again and connect to the first one. There is no notion of logical dependency between the chunks, that from the ML perspective are just atoms. the whole graph that Trouver creates is simply a fancy version of looking at the Table of Contents of the book itself. It does not have more information than "this chunk appears in this chapter". 
 (Also from the point of view that there are no guarantees at all that machine learning is doing the correct thing. At least so far.)
