@@ -3,9 +3,10 @@
 * [KnowTex](https://github.com/ElifUskuplu/KnowTex) by [Elif Uskuplu](https://elifuskuplu.github.io/), Larry Moss, and myself is a project to help people understand mathematical text by explaining its logical dependency structure using graphs. 
 The logical structure is explained by the authors of the mathematical text, and their use of LaTeX macros. 
 
-The system is inspired by [Massot](https://www.imo.universite-paris-saclay.fr/~patrick.massot/en/)'s BluePrint for Lean, but does not require files in preText format, so it's easier for the human mathematician.
+The system is inspired by [Massot](https://www.imo.universite-paris-saclay.fr/~patrick.massot/en/)'s [Lean BluePrint](https://github.com/PatrickMassot/leanblueprint), but does not require files in preText format, so it's easier for the human mathematician.
 
-Lean's Blueprint describes the logical structure of a mathematical text, but it also maps it into Lean components (to help with formalization), so it's dedicated to a specific interactive theorem prover, Lean.  
+Lean's Blueprint describes the logical structure of a mathematical text, but it also maps it into Lean components (to help with formalization), so it's dedicated to a specific interactive theorem prover: [Lean](). 
+
 Massot generalized it, removing the component mapping to Lean, but kept the preText dependency.
 (This is, by and large, a good dependency, as preText can  output several formats besides pdf, including Braille.) But it's not so easy to transform a latex file into a preText file, and this is one of the advantages of KnowTex.
 
