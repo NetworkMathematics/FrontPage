@@ -5,10 +5,11 @@ The logical structure is explained by the authors of the mathematical text, and 
 
 The system is inspired by [Massot](https://www.imo.universite-paris-saclay.fr/~patrick.massot/en/)'s [Lean BluePrint](https://github.com/PatrickMassot/leanblueprint), but does not require files in preText format, so it's easier for the human mathematician.
 
-Lean's Blueprint describes the logical structure of a mathematical text, but it also maps it into Lean components (to help with formalization), so it's dedicated to a specific interactive theorem prover: [Lean](). 
+Lean's Blueprint describes the logical structure of a mathematical text, but it also maps it into Lean components (to help with formalization), so it's dedicated to a specific interactive theorem prover: [Lean](https://lean-lang.org/). 
 
-Massot generalized it, removing the component mapping to Lean, but kept the preText dependency.
-(This is, by and large, a good dependency, as preText can  output several formats besides pdf, including Braille.) But it's not so easy to transform a latex file into a preText file, and this is one of the advantages of KnowTex.
+Massot generalized the Blueprint, removing the component that does mapping to Lean, but kept the preText dependency.
+(This is, by and large, a good dependency, as preText can  output several formats besides pdf, including Braille.) 
+But it's not very easy to transform a latex file into a preText file, and this is one of the advantages of KnowTex.
 
 * [Trouver](https://github.com/hyunjongkimmath/trouver) by [Hyun Jong Kim.](https://sites.google.com/view/hyunjongkimmath/), a number theorist is a very different approach.
 I thought Trouver used machine learning to 'discover' which bits of a PDF mathematical text are definitions, which are results, which are explanations, examples, etc. I thought it transformed the whole latex into plain text and used classifiers for learning which bit was what.
