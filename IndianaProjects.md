@@ -1,8 +1,8 @@
 ## Indiana (Possible) Projects
 
-1. ### TACWordNet
+1. ### TAC-wordDB
   
-   Our LLM-extracted database of math terms needs a name (I'm suggesting TACWordNet) and more work.
+   Our LLM-extracted database of math terms needs a name (I'm suggesting TAC-DB) and more work.
 
    Our work, described in the spreadsheet in https://docs.google.com/spreadsheets/d/1jLzuvuaLIcRTIQPwQ65fL3o9gzasplJ52eEUFJhhMSk/edit?gid=1391563495#gid=1391563495
   has several problems.
