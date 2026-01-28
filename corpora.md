@@ -12,3 +12,8 @@ Mathematical corpora (and associated preprints)
 
 * [Thinking Machines: Mathematical Reasoning in the Age of LLMs](https://arxiv.org/pdf/2508.00459)
 * [Formal Proof Sketches](https://cs.ru.nl/~freek/pubs/sketches2.pdf) Freek Wiedijk, 2008
+
+* [MATH 2021](https://arxiv.org/abs/2103.03874) Hendriks et al
+* [MathVista 2023](https://openreview.net/forum?id=hrI14X0Ltk) 
+* [MathBench](https://aclanthology.org/2024.findings-acl.411/) (Liu et al.,2024),
+* [MathArena](https://openreview.net/forum?id=y0zL9IZxZ7) (Balunovic et al., 2025).
