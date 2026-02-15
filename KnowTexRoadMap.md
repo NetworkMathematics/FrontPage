@@ -11,49 +11,45 @@ Massot generalized the Blueprint, removing the component that does mapping to Le
 (This is, by and large, a good dependency, as preText can  output several formats besides pdf, including Braille.) 
 But it's not very easy to transform a latex file into a preText file, and this is one of the advantages of KnowTex.
 
-* [Trouver](https://github.com/hyunjongkimmath/trouver) by [Hyun Jong Kim.](https://sites.google.com/view/hyunjongkimmath/), a number theorist is a very different approach.
-I thought Trouver used machine learning to 'discover' which bits of a PDF mathematical text are definitions, which are results, which are explanations, examples, etc. I thought it transformed the whole latex into plain text and used classifiers for learning which bit was what.
-But after seeing its use on the Kim Algebra book, I think I had it all wrong.
+## Trouver: Reassessment (January 2026)
 
-For people trying to map out the whole of mathematical knowledge on the web into some computational system, my misunderstanding of Trouver would be much better, as it could be applied to any math pdf you wanted, you wouldn't need to have a LaTeX source. But it would be also much worse, because if you classified a chunk as a definition, there would be no guarantees that another  chunk, exactly the same, would be classified as a definition too and connected to the first one. 
-There is no notion of logical dependency between the chunks. The chunks (or nodes), from the ML perspective, are just atoms. The whole graph that Trouver creates is simply a fancy way of looking at the Table of Contents of the book itself. It does not have more information than "this chunk appears in this chapter". In particular you don't have a notion that a given definition is used in a give theorem, hence the theorem depends on the definition.
-(Also from the point of view that there are no guarantees at all that machine learning is doing the correct thing at all)
+[Trouver](https://github.com/hyunjongkimmath/trouver) by [Hyun Jong Kim](https://sites.google.com/view/hyunjongkimmath/) turned out not to produce meaningful dependency graphs. After testing it on the Kim Algebra book, we found that its output reflects table-of-contents structure only ("this chunk appears in this chapter"), not logical dependencies between definitions and theorems. There is no notion that a given definition is used in a given theorem. The earlier plan to combine KnowTeX and Trouver for comparative evaluation on the nLab corpus has been dropped.
 
-I had thought we could put KnowTex and Trouver together to get some metrics for verification, using the nLab corpus.
+However, Kim's ML classifier for categorizing text into definitions, theorems, explanations, etc. may still be useful as a complementary signal in the future. Valeria is in contact with Kim about this.
 
-Why the nLab is good corpus for this:
-* Informal but highly structured
-* Definition-heavy
-* Concept-centric rather than theorem-centric
-* Rich in narrative explanation
+## New Direction: Automatic Dependency Inference
 
-Of course, the nLab pages do not have explicit `\uses' markup (as KnowTex needs).
-But they do have very strong rhetorical and structural cues.
+The main limitation of KnowTeX is that authors must manually insert `\uses` and `\proves` commands. Our new priority is to build a separate preprocessing tool (`knowtex-infer`) that takes a raw LaTeX file and outputs an annotated copy with auto-generated `\uses` commands. The original KnowTeX.py stays unchanged for manual use.
 
-This makes nLab a perfect testbed for automatic vs explicit structure, but only if we can get the automatic structure, which Trouver does not provide.
+### Planned heuristics (rule-based, no ML):
 
-A concrete comparative experiment:
-* Step 1: Run trouver on nLab2020.
-   Outputs:
-   * inferred dependency graphs, (not really)
-   * inferred concept/definition relationships, (not really)
-   * noisy but automatic structure. (not really)
+- Scan `\ref` / `\eqref` inside theorem bodies and proofs to infer dependencies
+- Distinguish statement-level vs. proof-level dependencies (matching KnowTeX's dashed/solid edge convention)
+- Use environment ordering as a fallback signal when no `\ref` exists
+- (Stretch) Terminology matching: flag likely dependencies when a defined term appears in a later statement without a `\ref`
 
-But IF we could get a "machine-inferred structure"
+Auto-inserted commands will be marked with `% auto-generated` so authors can review before running KnowTeX.
 
-* Step 2: Select a subset of nLab pages
-(For example: category theory basics, adjunctions, limits/colimits.)
-  * Hand-annotate a small gold subset of nLab using KnowTeX (this would also be problematic, given that nLab is not written in latex)
-  * Add \uses and \proves manually.
-  * Treat this as editorial ground truth: This would give us author-validated structure.
+**Target: working prototype by mid-March 2026.**
 
-* Step 4: Compare!
-  
-   Now we can ask real research questions:
-    * Which dependencies does Trouver reliably find? None is the answer, it only finds that a subsection is part of a chapter.
-    * Which does it systematically miss?
-    * Where does it hallucinate edges?
-    * Are narrative dependencies harder than proof dependencies?
-    * Does symbol introduction help or hurt inference?
+## LeanArchitect (Avigad et al.)
 
-This comparison would be far more meaningful than evaluating Trouver against generic NLP metrics.
+The new [LeanArchitect](https://arxiv.org/pdf/2601.22554) paper automates blueprint metadata within the Lean ecosystem. KnowTeX occupies the complementary space: LaTeX-native, proof-assistant-agnostic, aimed at authors who write informal mathematics. The next version of the paper should position KnowTeX alongside LeanArchitect explicitly, noting that the two tools can work together (e.g., a KnowTeX dependency graph can guide a subsequent Lean formalization effort).
+
+## Case Studies and Evaluation
+
+We will apply KnowTeX (with and without the inference tool) to at least 4 texts:
+
+- 2 textbooks (open-source book)
+- 2 research papers (shorter, different scale)
+
+For evaluation:
+- Human expert prepares gold-standard `\uses` annotations for each text
+- Run `knowtex-infer` on unannotated versions
+- Report precision and recall
+
+## Open Questions
+
+- Which additional books/papers for case studies?
+- Annotation granularity for gold standard: only Definitions/Theorems/Lemmas, or also Remarks/Examples?
+- Do we want to explore Kim's ML classifier as a future signal for `knowtex-infer`?
