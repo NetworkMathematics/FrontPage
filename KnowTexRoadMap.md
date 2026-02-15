@@ -34,18 +34,18 @@ Auto-inserted commands will be marked with `% auto-generated` so authors can rev
 
 ## LeanArchitect (Avigad et al.)
 
-The new [LeanArchitect](https://arxiv.org/pdf/2601.22554) paper automates blueprint metadata within the Lean ecosystem. KnowTeX occupies the complementary space: LaTeX-native, proof-assistant-agnostic, aimed at authors who write informal mathematics. The next version of the paper should position KnowTeX alongside LeanArchitect explicitly, noting that the two tools can work together (e.g., a KnowTeX dependency graph can guide a subsequent Lean formalization effort).
+The new [LeanArchitect](https://arxiv.org/pdf/2601.22554) paper automates blueprint metadata within the Lean ecosystem. KnowTeX occupies a complementary space: LaTeX-native, proof-assistant-agnostic, aimed at authors who write informal mathematics. The next version of the paper should position KnowTeX alongside LeanArchitect explicitly, noting that the two tools can work together (e.g., a KnowTeX dependency graph can guide a subsequent Lean formalization effort).
 
 ## Case Studies and Evaluation
 
 We will apply KnowTeX (with and without the inference tool) to at least 4 texts:
 
-- 2 textbooks (open-source book)
+- 2 textbooks (open-source books)
 - 2 research papers (shorter, different scale)
 
 For evaluation:
-- Human expert prepares gold-standard `\uses` annotations for each text
-- Run `knowtex-infer` on unannotated versions
+- A human expert prepares gold-standard `\uses` annotations for each text
+- We run `knowtex-infer` on unannotated versions
 - Report precision and recall
 
 ## Open Questions
