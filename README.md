@@ -18,7 +18,7 @@ The project has been presented in a COLING paper and three preprints under its o
 
 Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
 
-Working now (Jan 2026) on a knowledge graph from Mathoscope. Jacob is supposed to provide data and first write-up.
+Working now (Jan 2026) on a knowledge graph from Mathoscope. Jacob is supposed to provide data and first write-up with the new name.
      
 
 ## MathGloss
