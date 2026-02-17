@@ -1,7 +1,7 @@
 # Network Mathematics.
 
 Network Mathematics is an ambitious project that applies modern tools from Natural Language Processing (NLP) and Artificial Intelligence (AI) to the mathematical literature. The goal is to bridge the gap between informal mathematics—as written in papers, textbooks, and lecture notes—and formal mathematics, as represented in proof assistants and theorem provers. In short, we aim to help machines read and reason about mathematics written in natural language.
-(Some early thoughts about the project can be found in older [blog posts]().)
+(Some early thoughts about the project can be found in older [blog posts](https://github.com/NetworkMathematics/FrontPage/blob/main/blogposts.md).)
 
 We are developing several interconnected subprojects:
 
