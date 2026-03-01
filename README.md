@@ -1,4 +1,4 @@
-# Network Mathematics.
+# Network Mathematics
 
 Network Mathematics is an ambitious project that applies modern tools from Natural Language Processing (NLP) and Artificial Intelligence (AI) to the mathematical literature. The goal is to bridge the gap between informal mathematics—as written in papers, textbooks, and lecture notes—and formal mathematics, as represented in proof assistants and theorem provers. In short, we aim to help machines read and reason about mathematics written in natural language.
 (Some early thoughts about the project can be found in older [blog posts](https://github.com/NetworkMathematics/FrontPage/blob/main/blogposts.md).)
@@ -7,7 +7,7 @@ We are developing several interconnected subprojects:
 
 ## Mathoscope (formerly Parmesan)
 
-Mathoscope is a mathematical assistant and knowledge graph project under development since 2021. It draws on corpora derived from Theory and Applications of Categories (TAC) abstracts, the nLab, and Tom Leinster’s Basic Category Theory.
+Mathoscope is a mathematical assistant and knowledge graph project under development since 2021. It draws on corpora derived from Theory and Applications of Categories (TAC) abstracts, the nLab, and books, including Tom Leinster’s Basic Category Theory.
 The project has been presented in a COLING paper and three preprints under its original name, Parmesan:
 
 * [Mathematical Entities: Corpora and Benchmarks](https://aclanthology.org/2024.lrec-main.966.pdf), J. Collard, V. de Paiva, E. Subrahmanian, LREC-COLING, 2024
