@@ -38,7 +38,7 @@ Some presentations:
 * The project was first presented at a CICM 2023 workshop, see the preprint [Building Mathematical Glossaries from Text](https://arxiv.org/abs/2311.12649), L. Horowitz, V. de Paiva, 2023
 * Video presentations: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.
 * Valeria de Paiva: [AI tools for Better Math](https://www.youtube.com/watch?v=C7NBGlJb2DQ),  Hausdorff Institute, Jul 2024.
-* Lucy Horowitz slides: [Extending MathGloss](https://drive.google.com/file/d/1J780ImPxonODvDGyeU1Z77jWv-AKMLLb/view) Oct, 2025.
+* Lucy Horowitz (slides at [ALIGN2025](https://sites.google.com/view/align2025/welcome)): [Extending MathGloss](https://drive.google.com/file/d/1J780ImPxonODvDGyeU1Z77jWv-AKMLLb/view) Oct, 2025.
 
 MathGloss has been used in (at least):
 * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf), A. Ranta, 2024.
