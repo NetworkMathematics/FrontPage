@@ -21,7 +21,7 @@ The project has been presented in a COLING paper and three preprints under its o
 Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
 
 Working now (Jan 2026) on a knowledge graph from Mathoscope. The data from the project is  distributed into github repos:
-[Mathoscope](https://github.com/ToposInstitute/mathscope) and [Parmesan_benchmarks](https://github.com/ToposInstitute/parmesan_benchmarks).
+[Mathoscope](https://github.com/ToposInstitute/mathscope), [TAC-corpus](https://github.com/ToposInstitute/tac-corpus), [nLab_corpus](https://github.com/ToposInstitute/nlab-corpus), and [Parmesan_benchmarks](https://github.com/ToposInstitute/parmesan_benchmarks).
 
 On going: Jacob is supposed to provide data and first write-up with the new name.
      
