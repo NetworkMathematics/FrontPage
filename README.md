@@ -29,17 +29,20 @@ The data from the project is  distributed into github repos:
 On going: Working now (Mar 2026) on a (smallish) knowledge graph from Mathoscope. Jacob is supposed to provide data and first write-up with the new name.
      
 
-## MathGloss
+## 2. MathGloss
 
 MathGloss is a multi-source glossary of mathematical concepts, built primarily by Lucy Horowitz.
 
-Explore it at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.io/MathGloss/)
+Explore it by yourself at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.io/MathGloss/)
    
 The project was first presented at a CICM 2023 workshop; see the preprint:
 
 * MathGloss: [Building Mathematical Glossaries from Text](https://arxiv.org/abs/2311.12649), L. Horowitz, V. de Paiva, 2023
 
-(Video presentation: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.)
+Other presentations:
+* Video presentation: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.
+* Valeria de Paiva and Lucy Horowitz, 
+* (slides) Lucy
 
 MathGloss has since been used in (at least):
 
@@ -48,7 +51,7 @@ MathGloss has since been used in (at least):
 
 * [AutoMathKG: The Automated Mathematical Knowledge Graph Based on LLM and Vector Database](https://arxiv.org/abs/2505.13406), R. Bian et al., 2025
 
-  We need to produce a new write-up as MathGloss has grown from ~1700 concepts to almost 5K.
+  On going: We need to produce a new write-up as MathGloss has grown from ~1700 concepts to almost 5K.
 
 ## MathAnnotator
 
