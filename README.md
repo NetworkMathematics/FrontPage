@@ -7,7 +7,7 @@ Network Mathematics is an ambitious project that applies modern tools from Natur
 
 We are developing several interconnected subprojects, see below. For a brief overview, see the [slides](https://github.com/NetworkMathematics/FrontPage/blob/main/NetMath2.pdf) (March2026).
 
-## Mathoscope (formerly Parmesan)
+## 1. Mathoscope (formerly Parmesan)
 
 Mathoscope is a mathematical assistant and knowledge graph project under development since 2021. It draws on corpora derived from Theory and Applications of Categories (TAC) abstracts, the nLab, and books, including Tom Leinster’s Basic Category Theory.
 The project has been presented in a COLING paper and three preprints under its original name, Parmesan:
