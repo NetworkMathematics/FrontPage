@@ -32,21 +32,17 @@ Jacob to  provide data and first write-up with the new name.
 
 MathGloss is a multi-source glossary of mathematical concepts, built primarily by Lucy Horowitz.
 
-Explore it by yourself at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.io/MathGloss/)
+Explore it by yourself at [mathgloss.github.io/MathGloss/database](https://mathgloss.github.io/MathGloss/)!
    
-The project was first presented at a CICM 2023 workshop; see the preprint:
+Some presentations:  
+* The project was first presented at a CICM 2023 workshop, see the preprint [Building Mathematical Glossaries from Text](https://arxiv.org/abs/2311.12649), L. Horowitz, V. de Paiva, 2023
+* Video presentations: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.
+* Valeria de Paiva: [AI tools for Better Math](https://www.youtube.com/watch?v=C7NBGlJb2DQ),  Hausdorff Institute, Jul 2024.
+* Lucy Horowitz slides: [Extending MathGloss](https://drive.google.com/file/d/1J780ImPxonODvDGyeU1Z77jWv-AKMLLb/view) Oct, 2025.
 
-* MathGloss: [Building Mathematical Glossaries from Text](https://arxiv.org/abs/2311.12649), L. Horowitz, V. de Paiva, 2023
-
-Other presentations:
-* Video presentation: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.
-* Valeria de Paiva: [AI tools for Better Math](https://www.youtube.com/watch?v=C7NBGlJb2DQ) at Hausdorff Institute, Jul 2024.
-* (slides) Lucy Horowitz: [Extending MathGloss](https://drive.google.com/file/d/1J780ImPxonODvDGyeU1Z77jWv-AKMLLb/view)
-
-MathGloss has since been used in (at least):
-
+MathGloss has been used in (at least):
 * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf), A. Ranta, 2024.
-  See also [Symbolic Informalization: Fluent, Productive, Multilingual](https://aitp-conference.org/2025/abstract/AITP_2025_paper_4.pdf), AITP 2025.
+* See also [Symbolic Informalization: Fluent, Productive, Multilingual](https://aitp-conference.org/2025/abstract/AITP_2025_paper_4.pdf), AITP 2025.
 * [AutoMathKG: The Automated Mathematical Knowledge Graph Based on LLM and Vector Database](https://arxiv.org/abs/2505.13406), R. Bian et al., 2025
 
 Ongoing: Need to produce a new write-up as MathGloss has grown from ~1700 concepts to almost 5K.
