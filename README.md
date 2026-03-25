@@ -13,9 +13,7 @@ Mathoscope is a mathematical assistant and knowledge graph project under develop
 The project has been presented in a COLING paper and three preprints under its original name, Parmesan:
 
 * [Mathematical Entities: Corpora and Benchmarks](https://aclanthology.org/2024.lrec-main.966.pdf), J. Collard, V. de Paiva, E. Subrahmanian, LREC-COLING, 2024
-
 * [Parmesan: Mathematical Concept Extraction for Education](https://arxiv.org/abs/2307.06699), J. Collard, V. de Paiva, E. Subrahmanian, 2023
-
 * [Extracting Mathematical Concepts from Text](https://aclanthology.org/2022.wnut-1.2/), J. Collard, V. de Paiva, B. Fong, E. Subrahmanian, W-NUT, 2022
 
 Videos: [LREC](https://www.youtube.com/watch?v=n_5U5Dyy-8M&t=14s) |   [W-NUT](https://www.youtube.com/watch?v=-ZhZjMn1Zpk)
