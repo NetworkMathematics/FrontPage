@@ -26,7 +26,8 @@ The data from the project is  distributed into github repos:
 * [nLab_corpus](https://github.com/ToposInstitute/nlab-corpus), and 
 * [Parmesan_benchmarks](https://github.com/ToposInstitute/parmesan_benchmarks).
 
-On going: Working now (Mar 2026) on a (smallish) knowledge graph from Mathoscope. Jacob is supposed to provide data and first write-up with the new name.
+Ongoing: Working now (Mar 2026) on a (smallish) knowledge graph from Mathoscope. 
+Jacob to  provide data and first write-up with the new name.
      
 
 ## 2. MathGloss
@@ -41,17 +42,16 @@ The project was first presented at a CICM 2023 workshop; see the preprint:
 
 Other presentations:
 * Video presentation: Lucy Horowitz, [MathGloss and Beyond](https://www.youtube.com/watch?v=GklBiBEfblg), Hausdorff Institute, July 15, 2024.
-* Valeria de Paiva and Lucy Horowitz, 
-* (slides) Lucy
+* Valeria de Paiva: [AI tools for Better Math](https://www.youtube.com/watch?v=C7NBGlJb2DQ) at Hausdorff Institute, Jul 2024.
+* (slides) Lucy Horowitz: [Extending MathGloss](https://drive.google.com/file/d/1J780ImPxonODvDGyeU1Z77jWv-AKMLLb/view)
 
 MathGloss has since been used in (at least):
 
 * [Towards Multilingual Autoformalization and Informalization of Mathematics](https://sltc2024.github.io/abstracts/ranta.pdf), A. Ranta, 2024.
   See also [Symbolic Informalization: Fluent, Productive, Multilingual](https://aitp-conference.org/2025/abstract/AITP_2025_paper_4.pdf), AITP 2025.
-
 * [AutoMathKG: The Automated Mathematical Knowledge Graph Based on LLM and Vector Database](https://arxiv.org/abs/2505.13406), R. Bian et al., 2025
 
-  On going: We need to produce a new write-up as MathGloss has grown from ~1700 concepts to almost 5K.
+Ongoing: Need to produce a new write-up as MathGloss has grown from ~1700 concepts to almost 5K.
 
 ## MathAnnotator
 
