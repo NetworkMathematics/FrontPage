@@ -2,7 +2,7 @@
 
 1. ### TAC-wordDB
   
-   Our LLM-extracted database of math terms needs a name (I'm suggesting TAC-DB) and more work.
+   Our LLM-extracted database of math terms needs a name. I've suggested TAC-DB before, but I'm now suggesting MathTermDB, because no one knows what is TAC, and while we want to do this math concept extraction for Category Theory, eventually it would be good to do it for all of mathematics. But our MathTermDB (for CT or for math)  needs more work.
 
    Our work, described in the spreadsheet in https://docs.google.com/spreadsheets/d/1jLzuvuaLIcRTIQPwQ65fL3o9gzasplJ52eEUFJhhMSk/edit?gid=1391563495#gid=1391563495
   has several problems.
