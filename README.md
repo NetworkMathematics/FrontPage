@@ -47,7 +47,7 @@ MathGloss has been used in (at least):
 
 Ongoing: Need to produce a new write-up as MathGloss has grown from ~1700 concepts to almost 5K.
 
-## MathAnnotator
+## 3. MathAnnotator
 
 MathAnnotator is a web-based tool for manually annotating mathematical concepts in text, developed with Larry Moss, Qiyue (Bert) Gao, and Pavel Kovalev.
 Try it at [https://gaoq111.github.io/math_concept_annotation/](https://gaoq111.github.io/math_concept_annotation/).
@@ -55,7 +55,7 @@ Try it at [https://gaoq111.github.io/math_concept_annotation/](https://gaoq111.g
    Our preprint is:
    * [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/pdf/2309.00642) CEUR Workshop Proceedings (CEUR-WS.org), 2023.
 
-## MathNLI
+## 4. MathNLI
 
 MathNLI explores Natural Language Inference (NLI) over mathematical text.
 It extends earlier work on NLI for everyday language, in collaboration with Katerina Kalouli, Larry Moss, Hai Hu, and Alex Webb ([Curing the SICK and Other NLI Maladies](https://direct.mit.edu/coli/article/49/1/199/113488/Curing-the-SICK-and-Other-NLI-Maladies), 2023).
@@ -67,7 +67,7 @@ Our new preprint:
 has been presented at [STARSEM 2025](https://starsem2025.github.io/schedule).
      
    
-## MathLit
+## 5. MathLit
 
 MathLit aims to process open-source mathematics textbooks—especially those recommended by the American Institute of Mathematics (AIM) [Open Textbook Initiative](https://textbooks.aimath.org/)—using NLP pipelines such as spaCy or UDpipe.
 
@@ -86,7 +86,7 @@ Meanwhile, a different kind of effort is presented by Andrea Ferreira in
      
 See her NALOMA [preprint](https://naloma.github.io/2025/papers/paper-5.pdf) 
 
-## KnowTex
+## 6. KnowTex
 
 KnowTex (created by [Elif Uskuplu](https://elifuskuplu.github.io/)) is a python package that helps us graph the logical structure  of mathematical papers.
 The system was presented in the workshop ALIGN2025, slides are [here](https://drive.google.com/file/d/1Nl6Fgl88tLSnqWFPGdcb814WMOytv_TX/view?usp=sharing) and the code is [here](https://github.com/ElifUskuplu/KnowTex).
