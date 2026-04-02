@@ -1,0 +1,915 @@
+\begin{theindex}
+
+  \item abstraction set, 19
+  \item accessible functor, 111, 365, 370, 372
+  \item Aczel--Mendler functor $(-)_2^3$, 104, 106, 546, 551, 552, 556, 
+		561
+  \item adjoint, 388
+  \item algebra, 4, 12
+    \subitem carrier, 12
+    \subitem complete Elgot, 239
+    \subitem completely iterative (cia), 
+		\see{completely iterative algebra}{228}
+    \subitem completely metrizable, 232
+    \subitem continuous, 16
+    \subitem corecursive, \see{corecursive algebra}{216}
+    \subitem double, 496
+      \subsubitem for a monad, 497
+    \subitem Eilenberg--Moore, \see{Eilenberg--Moore algebra}{240}
+    \subitem finitely generated, 346
+    \subitem for a monad, 423
+    \subitem free, \see{free algebra}{30}
+    \subitem homomorphism, 4, 13
+    \subitem initial, \see{initial algebra}{4}
+      \subsubitem iterative, 340
+    \subitem iterative, 333
+    \subitem minimal, \see{minimal algebra}{6}
+    \subitem over nominal sets, 18
+    \subitem over sets in context, 17
+    \subitem projective, 349
+    \subitem quotient, 106
+    \subitem $\Sigma $-algebra, 14, 177
+    \subitem sub-, 21
+  \item algebraically complete, 78, 79, 171
+  \item almost $\lambda $-disjoint, 569
+  \item analytic functor, 76, 106, 109, 119, 120, 344, 409, 411
+  \item arity, 14
+    \subitem binding, 18
+    \subitem $S$-sorted, 15
+  \item automaton
+    \subitem accepting state, 37
+    \subitem B\"{u}chi, 421
+    \subitem deterministic, \see{deterministic automaton}{37}
+    \subitem linear weighted, 254, 269
+    \subitem Mealy, 39
+    \subitem Moore, 39
+    \subitem nofa, 412
+    \subitem non-deterministic, \see{non-deterministic automaton}{38}
+    \subitem observable, 291, 307
+    \subitem parity, 421
+    \subitem reachable, 291
+    \subitem regular nominal, 414
+    \subitem terminal, 47
+    \subitem weighted, 42, 350
+
+  \indexspace
+
+  \item B\"{u}chi automaton, 420
+  \item bag, 40
+    \subitem functor ${\mathslscr  {B}}$, 40, 77, 102, 104, 110, 231, 
+		551, 561
+  \item Banach Fixed Point Theorem, 151, 232, 543
+  \item bar string, 352
+  \item base, 508
+    \subitem case, 167
+    \subitem category, 12
+  \item basic equation, 105
+  \item Beck's monadicity theorem, 373
+  \item behavioural equivalence, 59
+  \item binary
+    \subitem decision diagram (BDD), 315
+    \subitem decision tree, 74
+    \subitem tree, 24
+  \item binding
+    \subitem arity, 18
+    \subitem polynomial functor, 18, 19, 418, 533
+    \subitem signature, 18
+  \item bipointed
+    \subitem metric space, 518
+    \subitem set, 77, 518
+  \item bisimulation, 57, 96, 130, 146, 293, 307, 453, 551
+    \subitem functional, 59
+    \subitem graph $\sim $, 96
+    \subitem tree $\sim $, 124
+    \subitem weighted, 40
+  \item bounded, 360
+    \subitem totally, 127
+  \item Brzozowski derivative, 48
+
+  \indexspace
+
+  \item canonical
+    \subitem cocone, 66
+    \subitem extension $\mathrlap {\hspace  {2.5pt}\overline  {\scalebox {0.6}[1]{\phantom  {\ensuremath  {F}}}}}\ensuremath  {F} $, 
+		411
+    \subitem filtered diagram, 323
+    \subitem fixed point, 132, 143, 148, 149, 152, 160, 199, 208, 
+		210, 211, 411, 419, 457
+    \subitem graph, 257
+    \subitem morphism, 188, 457
+  \item Cantor's Theorem, 22, 504
+  \item cardinal, 167, 168
+    \subitem measurable, 584
+    \subitem regular, 168
+    \subitem singular, 168
+    \subitem strong limit, \see{strong limit cardinal}{200}
+  \item cardinality, 166, 189
+  \item carrier, 12
+  \item cartesian
+    \subitem closed, 134
+    \subitem subcoalgebra, 252
+  \item category
+    \subitem base, 12
+    \subitem $\ensuremath  {\mathsf  {CMet}}$-enriched, 150
+    \subitem cocomplete, 92
+    \subitem complete, 32
+    \subitem $\ensuremath  {\mathsf  {CPO}}$-enriched, 134
+    \subitem Kleisli, 404
+    \subitem $\lambda $-filtered, 362
+    \subitem $\lambda $-presentable, 372
+    \subitem left-strict, 147
+    \subitem locally
+      \subsubitem $\lambda $-presentable, 
+		\see{locally $\lambda $-presentable category}{364}
+      \subsubitem presentable, 364, 531
+    \subitem pointed, 133
+    \subitem presheaf, 272, 320
+    \subitem Scott complete, 149
+    \subitem strict
+      \subsubitem $\ensuremath  {\mathsf  {CMet}}$-enriched, 156, 532
+      \subsubitem $\ensuremath  {\mathsf  {CPO}}$-enriched, 
+		\see{strict $\ensuremath  {\mathsf  {CPO}}$-enriched}{142}
+    \subitem well-powered, 21
+  \item Cauchy completion, 70, 390, 456
+  \item chain, 168, 191
+    \subitem $i$-, 168
+    \subitem ${\mathsf  {Ord}}$-, 168
+    \subitem -complete poset, 168, 247, 537
+    \subitem convergence ordinal, 192
+    \subitem initial-algebra, \see{initial-algebra chain}{65}
+    \subitem $\omega $-, 65
+    \subitem terminal-coalgebra, \see{terminal-coalgebra chain}{80}
+  \item cia, \see{completely iterative algebra}{228}
+  \item co-well-powered, 92
+  \item coalgebra, 2, 4, 36
+    \subitem $I$-pointed, 306
+    \subitem canonical graph of, 257
+    \subitem cofree, 62, 478
+    \subitem corecursive
+      \subsubitem parametrically, 215
+    \subitem finitely presentable, 378
+    \subitem homomorphism, 3, 4, 36
+    \subitem locally
+      \subsubitem finite, 325
+      \subsubitem finitely generated (lfg), 354
+      \subsubitem finitely presentable (lfp), 325
+    \subitem pointed, 296
+    \subitem quotient, 95, 272
+    \subitem reachable, 296
+    \subitem recursive, \see{recursive coalgebra}{241}
+      \subsubitem parametrically, \see{parametrically recursive}{277}
+    \subitem relatively terminal, 482--484
+    \subitem simple, 293--295
+    \subitem terminal, \see{terminal coalgebra}{5}
+    \subitem weakly terminal, \see{weakly terminal coalgebra}{116}
+    \subitem well-founded, \see{well-founded coalgebra}{264}
+    \subitem well-founded part, 268
+    \subitem well-pointed, \see{well-pointed coalgebra}{307}
+  \item coalgebra-to-algebra morphism, 214, 241
+  \item cocomplete, 92
+  \item cocone, 65
+  \item cofinal, 168, 505
+  \item cofinality, 568
+  \item cofree, 62
+  \item coinduction, 3
+    \subitem principle, 59, 110
+  \item cointersection, 292
+  \item colimit, 66
+    \subitem create, 90
+    \subitem filtered, \see{filtered colimit}{193}
+  \item comma category, 338
+  \item commutative monad, 406, 409
+  \item compactly branching tree, 127
+  \item compatible sequence, 123
+  \item complete
+    \subitem algebraically, \see{algebraically complete}{78}
+    \subitem category, 32
+    \subitem Elgot algebra, 239
+    \subitem lattice, 536
+    \subitem metric space, 70, 150, 459, 543
+    \subitem partial order (cpo), 16, 534
+      \subsubitem ideal, 43
+      \subsubitem lifting, 16
+  \item completely iterative algebra (cia), 215, 228, 229, 231
+    \subitem free, 478
+    \subitem initial, 235
+  \item completely metrizable, 232
+  \item completion
+    \subitem Cauchy, \see{Cauchy completion}{70}
+    \subitem ideal, \see{ideal completion}{141}
+  \item congruence, 96, 293
+  \item constant
+    \subitem functor, 100, 140, 190, 363
+      \subsubitem essentially, 190
+    \subitem symbol, 14
+  \item continued fraction, 523, 527
+  \item continuous
+    \subitem algebra, 16
+    \subitem function, 16
+    \subitem functor, 469
+  \item contracting
+    \subitem chain, 153
+    \subitem function, 151
+  \item Contraction Coinduction, 544
+  \item converge, 171, 192
+    \subitem in exactly $\lambda $ steps, 171, 192
+  \item convergence ordinal, 171
+  \item convolution product, 350
+  \item corecursion, 3
+    \subitem primitive, 56
+  \item corecursive
+    \subitem algebra, 216, 225, 226, 527, 529
+    \subitem free algebra, 221
+    \subitem initial algebra, 219
+    \subitem parametrically, 215
+  \item coreflective subcategory, 272
+  \item covarietor, 63, 118, 512, 518
+  \item cpo, \see{complete partial order}{16}
+  \item $\ensuremath  {\mathsf  {CPO}}$-enriched, 134, 180, 208
+    \subitem strict, 142
+  \item create
+    \subitem colimits, 90
+    \subitem limits, 92
+  \item cutting, 98, 121, 456
+
+  \indexspace
+
+  \item $\delta $-discrete, 505
+  \item depth, 24
+  \item deterministic automaton, 37, 158, 253, 296, 307, 313
+  \item diagonal fill-in property, 222
+  \item diagram, 90, 100
+    \subitem filtered, 320
+    \subitem $\lambda $-filtered, 362
+    \subitem scheme, 90
+  \item dinatural transformation, 458
+  \item direct image operator, 262
+  \item directed
+    \subitem graph, 38
+    \subitem poset, 100, 539
+  \item discrete
+    \subitem metric, 70, 459, 515
+    \subitem order, 81
+  \item distributive law, 406, 410
+  \item duality, 44
+
+  \indexspace
+
+  \item edge, 38
+  \item Eilenberg--Moore algebra, 240, 358, 423
+  \item Elgot algebra, 358
+    \subitem complete, 239
+  \item embedding, 135, 142
+    \subitem -projection pair, 135
+    \subitem isometric, \see{isometric embedding}{72}
+  \item enriched category
+    \subitem $\ensuremath  {\mathsf  {CMet}}$, 150
+    \subitem $\ensuremath  {\mathsf  {CPO}}$, 134
+    \subitem strict $\ensuremath  {\mathsf  {CMet}}$, 156
+    \subitem strict $\ensuremath  {\mathsf  {CPO}}$, 160, 209, 210
+  \item epi-pullback, 557
+    \subitem weak, 557, 564
+  \item epi-transformation, 101
+  \item epimorphism
+    \subitem extremal, 292
+    \subitem split, 6, 101
+    \subitem strong, \see{strong epimorphism}{222}
+  \item equation
+    \subitem basic, 105
+    \subitem morphism, 214
+  \item equivalence
+    \subitem kernel $\sim $, 96
+  \item equivariant map, 18
+  \item essentially
+    \subitem constant, 190
+    \subitem uniquely, 318
+  \item evaluation function, 400
+  \item eventually periodic, 330
+  \item extension, 390
+    \subitem left Kan, 322, 333
+  \item extensional
+    \subitem tree, 74, 99, 125, 126
+      \subsubitem strongly extensional, 
+		\see{strongly extensional tree}{124}
+  \item extensional quotient, 74
+  \item extremal epimorphism, 292
+
+  \indexspace
+
+  \item $F$-algebra, 4, 12
+    \subitem homomorphism, 4, 13
+  \item $F$-coalgebra, 4, 36
+    \subitem homomorphism, 4, 36
+  \item factorization
+    \subitem (strong epi, mono), 223
+  \item factorizes essentially uniquely, 318
+  \item factorizing morphism, 66
+  \item filter, 112
+    \subitem $\alpha $-based, 196
+    \subitem functor ${\mathslscr  {F}}$, 112, 196, 546, 561, 584
+    \subitem $\lambda $-small, 196
+  \item filtered, 320
+    \subitem colimit, 193, 275, 320, 345, 376, 566
+    \subitem diagram, 320
+  \item final functor, 338, 340, 376
+  \item finitary
+    \subitem flat equation morphism, 333
+    \subitem presentation, 101, 102
+    \subitem signature, 14, 260, 322, 344, 359, 472
+  \item finite
+    \subitem distribution functor $\mathslscr  D_\mathsf  {f}$, 40, 551
+    \subitem hereditarily, 23
+    \subitem permutation, 18
+    \subitem power-set functor ${\mathslscr  P}_{\mathsf  {f}}$, 23, 
+		74, 75, 84, 100, 102, 104, 121, 124, 231, 313, 321, 
+		329, 344, 363, 398, 428, 464, 550
+  \item finite-to-one, 120
+  \item finitely
+    \subitem bounded functor, 100, 102, 567
+    \subitem generated, 345
+    \subitem presentable, 318
+    \subitem supported, 322
+  \item fixed point, 8, 22, 186, 196, 270, 282, 333
+    \subitem canonical, \see{canonical fixed point}{132}
+    \subitem corecursive, 216
+    \subitem locally ffg, 356
+    \subitem locally finite, 354
+    \subitem minimal, 186, 281
+    \subitem post-, \see{post-fixed point}{190}
+    \subitem pre-, 535
+    \subitem rational, \see{rational fixed point}{327}
+    \subitem recursive, 241
+    \subitem unique, \see{unique fixed point}{151}
+  \item flat
+    \subitem equation morphism, 228
+      \subsubitem finitary, 333
+    \subitem term, 214
+  \item formal
+    \subitem language, 47, 158
+    \subitem power series, 48, 52, 350
+  \item free
+    \subitem algebra, 30, 311, 472--478
+      \subsubitem finitely generated, 349
+      \subsubitem iterative, 338
+    \subitem cia, 236, 396
+    \subitem cia monad, 396, 399
+    \subitem completely iterative
+      \subsubitem monad, 238
+    \subitem corecursive algebra, 221
+    \subitem corecursive-algebra chain, 221
+    \subitem finitely generated, 349
+    \subitem iterative algebra, 338
+  \item fully abstract, 327
+  \item function
+    \subitem continuous, 16
+    \subitem inflationary, 538
+    \subitem non-expanding, \see{non-expanding function}{70}
+    \subitem strict continuous, 17
+  \item functional bisimulation, 59
+  \item functor
+    \subitem accessible, \see{accessible functor}{111}
+    \subitem Aczel--Mendler, \see{Aczel--Mendler functor}{104}
+    \subitem analytic, \see{analytic functor}{76}
+    \subitem bag, \see{bag functor}{40}
+    \subitem binding polynomial, \see{binding polynomial functor}{18}
+    \subitem bounded, 360
+      \subsubitem by sets of size $\leq \lambda $, 581
+    \subitem constant, \see{constant functor}{133}
+    \subitem continuous, \see{continuous functor}{460}
+    \subitem contracting, 157
+      \subsubitem locally, 160
+    \subitem contravariant power-set ${\mathsf  {Set}}(-,2)$, 391
+    \subitem discrete probability measure $\mathslscr  D_\mathsf  {f}$, 
+		561
+    \subitem distribution $\mathslscr  D$, 461
+    \subitem essentially constant, 190
+    \subitem filter ${\mathslscr  {F}}$, \see{filter functor}{112}
+    \subitem final, \see{final functor}{338}
+    \subitem finitary, 100, 111, 301, 566
+      \subsubitem set, 102, 105, 343, 569
+    \subitem finite power-set ${\mathslscr  P}_{\mathsf  {f}}$, 
+		\see{finite power-set functor}{23}
+    \subitem finitely bounded, \see{finitely bounded functor}{100}
+    \subitem finitely-supported power-set ${\mathslscr  P}_\mathsf  {fs}\xspace  $, 
+		322
+    \subitem grounded, 462, 469
+    \subitem Hausdorff ${\cal  H}$, \see{Hausdorff functor}{152}
+    \subitem hom-contracting, 156
+    \subitem iteratable, 236, 399
+    \subitem Kantorovich ${\mathslscr  {K}}$, 365
+    \subitem Kripke polynomial, \see{Kripke polynomial functor}{117}
+    \subitem $\lambda $-accessible, 193, 581
+    \subitem $\lambda $-bounded, 193, 581
+    \subitem $\lambda $-preaccessible, 381
+    \subitem left strict, 532
+    \subitem locally
+      \subsubitem contracting, \see{locally contracting functor}{152}, 
+		532
+    \subitem locally continuous, \see{locally continuous functor}{140}
+    \subitem monoid-valued, 39, 561
+    \subitem polynomial, \see{polynomial functor}{14}
+    \subitem power-set ${\mathslscr  P}$, \see{power-set functor}{14}
+    \subitem power-set ${\mathslscr  P}_{\lambda }$, 546, 561
+    \subitem preaccessible, 381, \see{preaccessible}{381}
+    \subitem precontinuous, 460, 470
+    \subitem presentation of, 101
+    \subitem preserves inclusions, 579
+    \subitem proper, 356, 448
+    \subitem quotient, 101, 204
+    \subitem $R$, 242, 259, 304, 308, 546, 561
+    \subitem stable, 208, 532
+    \subitem standard, 237, 579
+    \subitem strict $\ensuremath  {\mathsf  {CPO}}$-enriched, 208
+    \subitem super-finitary, 570
+    \subitem Vietoris $\mathslscr  {V}$, \see{Vietoris functor}{508}
+
+  \indexspace
+
+  \item General Recursion Theorem, 276
+  \item Generalized Continuum Hypothesis (GCH), 197
+  \item generates, 325
+  \item generating set, 360
+  \item global element, 296
+  \item graph, 38, 264
+    \subitem $\sim $ bisimulation, 96
+    \subitem canonical, 257
+    \subitem directed, 38
+    \subitem pointed, 99
+    \subitem reachable, \see{reachable graph}{296}
+    \subitem well-founded, 264
+
+  \indexspace
+
+  \item Hartogs' Lemma, 169, 538
+  \item Hausdorff
+    \subitem functor ${\cal  H}$, 152, 365, 514
+    \subitem metric, 152, 233
+    \subitem polynomial functor, 517, 532
+  \item $\mbox  {\emph  {HC}}$, 176
+  \item height, 173
+  \item hereditarily finite, 23, 175
+  \item $\mbox  {\emph  {HF}}$, 175
+  \item homomorphism, 14
+    \subitem algebra, 4, 13
+    \subitem coalgebra, 3, 4, 36
+    \subitem $\Sigma $-algebra, 14
+  \item hyperspace, 508
+
+  \indexspace
+
+  \item $i$-chain, 168
+  \item ideal, 43, 141, 468
+    \subitem completion, 141, 468, 469
+  \item idempotent, 208
+    \subitem semiring, 353, 431
+    \subitem split, 209
+  \item image, 222
+  \item inclusion map, 545
+  \item $\mathop {\mathsf  {Ind}}$-completion, 326
+  \item infinitary signature, 175
+  \item infinite word, 82
+  \item inflationary, 538
+  \item initial
+    \subitem algebra, 4, 21, 66, 67, 107, 186, 242, 248, 279, 312, 370, 
+		390
+      \subsubitem iterative, 340
+      \subsubitem theorem, 186
+    \subitem corecursive algebra, 219
+    \subitem iterative algebra, 340
+    \subitem object
+      \subsubitem simple, 225, 272
+      \subsubitem strict, 224
+  \item initial-algebra chain, 65, 170, 172, 186, 245, 272, 382, 457
+  \item intersection, 111
+    \subitem finite, 112, 547
+    \subitem nonempty, 112, 547
+    \subitem preservation of, 112, 553
+  \item inverse
+    \subitem image, 551
+      \subsubitem operator, 261, 272
+      \subsubitem preservation of, 552
+  \item isolated step, 167
+  \item isometric
+    \subitem cone, 515
+    \subitem embedding, 72, 150, 178, 505
+  \item iteration theory, 239
+  \item iterative algebra, 333
+  \item Iwamura's Lemma, 539
+
+  \indexspace
+
+  \item kernel equivalence, 96
+  \item kernel pair, 450
+    \subitem weak, 556, 564
+  \item Kleene's Theorem, 64, 302, 535
+  \item Kleisli
+    \subitem category, 404, 410
+    \subitem extension, 238
+    \subitem triple, 238
+  \item Knaster--Tarski Theorem, 79, 169, 226, 274, 419, 536
+  \item Kripke
+    \subitem polynomial functor, 117, 261, 371, 398, 461
+    \subitem structure, 117
+
+  \indexspace
+
+  \item labelled
+    \subitem transition system, 39, 300
+    \subitem tree, 25
+  \item $\lambda $-accessible, 193
+  \item $\lambda $-calculus, 163
+  \item $\lambda $-presentable, 362
+  \item $\lambda $-small filter, 196
+  \item $\lambda $-term, 351
+  \item Lambek's Lemma, 22
+  \item language
+    \subitem bar, 414
+    \subitem context-free, 430
+    \subitem finitely supported, 352
+    \subitem formal, 48
+    \subitem weighted, 52, 350
+  \item lattice, 536
+    \subitem complete, 536
+  \item leaf, 24
+  \item left adjoint, 31, 388
+  \item left-monotone, 541
+  \item lifting, 16, 146, 209, 390, 394
+    \subitem contracting, 151, 157
+  \item limit
+    \subitem create, 92
+    \subitem ordinal, 167
+    \subitem step, 167
+    \subitem strong $\sim $ cardinal, 200
+  \item limit--colimit coincidence, 133, 139, 155
+  \item linear weighted automaton, 254, 269
+  \item locally
+    \subitem continuous functor, 140, 142, 143, 160, 161, 208
+    \subitem contracting functor, 151, 152, 155, 156, 164, 231, 399
+    \subitem ffg fixed point, 356
+    \subitem finite, 325
+    \subitem finite fixed point, 354
+    \subitem finitely generated, 354
+    \subitem finitely presentable, 319, 325
+    \subitem $\lambda $-presentable category, 364, 377, 486, 489
+    \subitem presentable category, 364, 531
+  \item lower Vietoris space, 514
+
+  \indexspace
+
+  \item $\EuScript  {M}$-object, 176
+  \item $\EuScript  {M}$-subfunctor, 203
+  \item many-sorted set, 85
+  \item map
+    \subitem equivariant, 18
+    \subitem strict continuous, 17
+  \item Markov chain, 40
+  \item meet, 224
+  \item metric
+    \subitem Hausdorff, \see{Hausdorff metric}{233}
+    \subitem maximum, 72
+    \subitem space, 70
+      \subsubitem bipointed, 518
+      \subsubitem complete, \see{complete metric space}{70}
+      \subsubitem discrete, 72
+      \subsubitem totally bounded, 127
+  \item minimal
+    \subitem algebra, 6, 29, 186, 281, 282
+    \subitem automaton, 291, 306, 343
+  \item monad, 31, 396, 399, 403, 406, 410, 472
+    \subitem commutative, \see{commutative monad}{406}
+    \subitem Kleisli category, 404, 410
+    \subitem locally contracting, 399
+    \subitem rational, 357
+  \item monoid
+    \subitem positive, 130, 562
+    \subitem refinable, 130, 562
+    \subitem -valued functor, 39, 561
+  \item monomorphism
+    \subitem nonempty, 224
+    \subitem regular, 177
+    \subitem smooth, 177
+    \subitem strong, 380
+    \subitem universally smooth, 274
+  \item morphism
+    \subitem canonical, 457
+    \subitem coalgebra-to-algebra, 214, 241
+    \subitem corecursively specified, 54
+    \subitem factorizing, 66
+    \subitem flat equation, 228
+    \subitem recursively specified, 33
+    \subitem tree, 123
+  \item multigraph, 41
+  \item multiset, 39
+  \item mutual recursion, 87
+
+  \indexspace
+
+  \item natural numbers object (NN0), 24
+  \item next-time operator, 263
+  \item nofa, 412
+  \item nominal set, 18
+  \item non-deterministic automaton, 38, 130, 145, 253, 428
+  \item non-expanding function, 70, 150
+  \item nullary symbol, 14
+
+  \indexspace
+
+  \item observable automaton, 291, 307
+  \item $\omega $-chain, 65
+  \item $\omega $-colimit, 65
+  \item operation symbols, 14
+  \item orbit, 76, 320
+    \subitem -finite, 320, 346
+  \item ${\mathsf  {Ord}}$-chain, 168
+  \item ordered tree, 24
+  \item ordinal, 166
+    \subitem limit, 167
+    \subitem successor, 167
+
+  \indexspace
+
+  \item parametrically recursive, 242, 277, 279
+  \item parity automaton, 420
+  \item partial order
+    \subitem complete (cpo), 534
+  \item Pataraia
+    \subitem Induction Principle, 542
+    \subitem Theorem, 541
+  \item permutation
+    \subitem finite, 18
+  \item point, 296
+  \item pointed
+    \subitem category, 133
+    \subitem coalgebra, 296
+    \subitem graph, 99
+    \subitem set, 451
+    \subitem subcoalgebra, 296
+  \item polynomial functor, 14, 16, 83, 87, 140, 151, 175, 193, 217, 
+		545
+    \subitem binding, \see{binding polynomial functor}{18}
+    \subitem Hausdorff, 517, 532
+    \subitem Kripke, \see{Kripke polynomial functor}{117}
+    \subitem Vietoris, 512, 533
+  \item poset
+    \subitem chain-complete, \see{chain-complete poset}{247}
+    \subitem directed, \see{directed poset}{539}
+  \item positive, 130, 562
+  \item post-fixed point, 190, 507, 542
+  \item power-set
+    \subitem finite $\sim $ functor, \see{finite power-set functor}{23}
+    \subitem functor ${\mathslscr  P}$, 14, 100, 253, 296, 395, 546
+  \item pre-fixed point, 23, 65, 66, 100, 169, 184, 186--189, 191, 226, 
+		247, 249, 270, 282, 535, 569
+  \item preaccessible, 531, 584, 585
+  \item precontinuous, 457
+  \item prefixed-closed, 25
+  \item prelimit, 460
+  \item presentation, 344
+    \subitem finitary, 101
+  \item presheaf
+    \subitem category, 17, 196, 272, 280, 533
+    \subitem of $\lambda $-terms, 17
+  \item previous-time operator, 299
+  \item primitive
+    \subitem corecursion, 56
+    \subitem recursion, 34
+  \item projection, 135, 142
+  \item projective, 349
+  \item proper functor, 356, 448
+  \item pseudometric, 400
+
+  \indexspace
+
+  \item quadratic irrationals, 330
+  \item quotient, 204, 272
+    \subitem algebra, 106
+    \subitem coalgebra, 95
+    \subitem functor, 101
+    \subitem object, 95
+      \subsubitem order on, 95
+    \subitem strong, 292, 304
+      \subsubitem coalgebra, 272
+
+  \indexspace
+
+  \item rational fixed point, 327, 343, 344, 354, 528
+  \item reachable
+    \subitem automaton, 291, 307
+    \subitem coalgebra, 296, 301, 302, 304
+    \subitem graph, 296, 301
+    \subitem part, 296
+  \item recursion, 2, 32
+    \subitem mutual, 87
+    \subitem primitive, 34
+    \subitem Theorem, 276
+  \item recursive
+    \subitem coalgebra, 241, 243, 283, 480
+      \subsubitem parametrically, \see{parametrically recursive}{242}
+      \subsubitem terminal, 242
+  \item recursively specified morphism, 33
+  \item refinable, 130, 562
+  \item regular
+    \subitem cardinal, 168, 568
+    \subitem monomorphism, 177
+  \item relation, 38, 57
+    \subitem well-founded, 241
+  \item retraction-embedding pair, 150
+  \item right adjoint, 32, 388
+  \item root, 24
+
+  \indexspace
+
+  \item ${\mathds  {S}}$-semimodule, 42
+  \item $S$-sorted signature, 15
+  \item saturated tree, 128
+  \item Scott induction, 65, 247
+  \item Scott-complete, 149
+  \item semimodule, 42
+  \item semiring, 42
+  \item set
+    \subitem abstraction, 19
+    \subitem bipointed, 77, 518
+    \subitem hereditarily countable, 176
+    \subitem hereditarily finite, 23, 175
+    \subitem in context, 17
+    \subitem many-sorted, 85
+    \subitem nominal, 18
+    \subitem non-well-founded, 240
+    \subitem $S$-sorted, 15
+  \item set functor
+    \subitem accessible, 531
+    \subitem finitary, 461
+    \subitem grounded, 462
+    \subitem precontinuous, 457
+  \item $\Sigma $-algebra, 14
+  \item $\Sigma $-term, 25
+    \subitem graph, 315
+  \item $\Sigma $-tree, 25, 27, 175
+    \subitem rational, 328
+  \item signature, 82, 83, 87, 101, 102, 106, 175, 472
+    \subitem binding, 18
+    \subitem finitary, \see {finitary signature}{14}, 74
+    \subitem infinitary, 84, 175
+    \subitem many-sorted, 85, 87
+    \subitem $S$-sorted, 15
+  \item simple, 225, 272
+    \subitem coalgebra, 293--295
+  \item singular, 168
+  \item smooth, 203
+    \subitem class, 177, 496
+    \subitem class of monomorphisms, 496
+    \subitem monomorphism, 177
+    \subitem universally, 274
+  \item solution, 214, 216
+  \item sorted
+    \subitem set, 15
+    \subitem signature, 15
+  \item split
+    \subitem epimorphism, 6, 101
+    \subitem idempotent, 209
+  \item stable, 208, 532
+  \item state transition graph, 254
+  \item Stone space, 513
+  \item stream, 46, 51, 55, 73, 81, 157, 240, 353, 493
+    \subitem automatic, 330
+    \subitem causal $\sim $ function, 49
+    \subitem eventually periodic, 330, 350
+    \subitem rational, 350
+    \subitem real valued, 82
+  \item strict, 17
+    \subitem $\ensuremath  {\mathsf  {CMet}}$-enriched, 156, 532
+    \subitem $\ensuremath  {\mathsf  {CPO}}$-enriched, 142, 208, 532
+    \subitem initial object, 224, 275
+  \item strong
+    \subitem epimorphism, 222, 292, 323
+    \subitem limit cardinal, 200, 476
+    \subitem monomorphism, 380
+    \subitem quotient, 272, 304
+    \subitem quotient coalgebra, 292
+  \item strongly extensional
+    \subitem quotient, 125
+    \subitem tree, 124, 126, 130, 231, 398, 466, 515
+  \item subalgebra, 6, 21
+  \item subbase, 508
+  \item subcartesian, 588
+  \item subcoalgebra, 45, 126, 361
+    \subitem cartesian, 252--253
+    \subitem pointed, 296
+  \item subfunctor, 203
+  \item subobject, 21
+    \subitem classifier, 284
+    \subitem smooth, 177
+  \item successor ordinal, 167
+  \item super-finitary, 570
+  \item support, 18
+  \item systems with termination, 36
+
+  \indexspace
+
+  \item term, 25
+    \subitem flat, 214
+  \item terminal
+    \subitem automaton, 47
+    \subitem coalgebra, 5, 45, 102, 197, 235, 294, 310, 361, 370, 390, 
+		456, 470
+    \subitem recursive coalgebra, 242
+  \item terminal-coalgebra chain, 80, 192, 194, 196, 372, 457
+  \item theorem
+    \subitem Banach's Fixed Point, 
+		\see{Banach Fixed Point Theorem}{151}
+    \subitem Beck's monadicity, 373
+    \subitem Cantor's, \see{Cantor's Theorem}{22}
+    \subitem Freyd's Iterated Square, 480
+    \subitem Freyd's Special Adjoint Functor, 361
+    \subitem Initial Algebra, 186
+    \subitem Kleene's, \see{Kleene's Theorem}{64}
+    \subitem Knaster--Tarski, \see{Knaster--Tarski Theorem}{79}
+    \subitem Makkai and Par\'e's Limit, 372
+    \subitem Markowsky's, 540
+    \subitem Pataraia's, 541
+    \subitem Taylor's General Recursion, 276
+    \subitem Zermelo's, 169, 538
+  \item totally bounded, 127
+  \item transfinite induction, 167
+  \item transition system
+    \subitem labelled, 39
+    \subitem weighted, 39
+  \item tree
+    \subitem $\sim $bisimulation, 124
+    \subitem binary, 24
+    \subitem binary decision, 74
+    \subitem compactly branching, 127
+    \subitem complete $n$-ary, 25
+    \subitem cutting, \see{cutting}{99}
+    \subitem extensional, \see{extensional tree}{74}
+      \subsubitem strongly, 124
+    \subitem height, 173
+    \subitem labelled, 25
+    \subitem leaf, 24
+    \subitem morphism, 123
+    \subitem ordered, 24
+    \subitem saturated, 128, 129
+    \subitem $\Sigma $-tree, 25, 27, 175
+    \subitem strongly extensional, 124, 125
+      \subsubitem quotient, 125
+    \subitem tupling, 25, 72
+      \subsubitem with multiplicities, 75
+    \subitem unordered, 24
+    \subitem well-founded, 173
+  \item triangular identities, 31, 388
+  \item Trnkov\'a hull, 258, 554, 572, 574--577
+
+  \indexspace
+
+  \item ultrafilter, 584
+    \subitem $\sigma $-complete, 584
+    \subitem principal, 584
+  \item unique fixed point, 151, 156, 158
+  \item unit interval $\mathds  {I}$, 519, 527
+  \item universally smooth, 274
+  \item unordered tree, 24
+
+  \indexspace
+
+  \item varietor, 31, 32, 173, 189, 191, 199, 373, 385, 472, 475--477, 
+		513, 518
+  \item variety, 311, 364, 423
+    \subitem finitary, 319, 346
+    \subitem locally finite, 319
+  \item vertex, 38
+  \item Vietoris
+    \subitem functor $\mathslscr  {V}$, 508, 511, 533
+    \subitem polynomial functor, 512, 533
+    \subitem space, 508
+      \subsubitem lower, 514
+
+  \indexspace
+
+  \item weak
+    \subitem kernel pair, 556
+    \subitem pullback, 60, 96, 130, 402, 422, 450, 549, 555, 556
+  \item weakly terminal, 93, 97, 102
+  \item weighted
+    \subitem automaton, 42, 429
+    \subitem bisimulation, 40, 430
+    \subitem language, 52, 430
+    \subitem transition system, 39
+  \item well-founded, 173
+    \subitem coalgebra, 253, 264, 270, 279, 282, 283, 312
+      \subsubitem terminal, 279
+    \subitem graph, 264
+    \subitem graph vs.~ relation, 252
+    \subitem part, 268, 269
+  \item well-ordered set, 166
+  \item well-pointed
+    \subitem coalgebra, 307, 310, 312, 343
+    \subitem modification, 308
+  \item well-powered
+    \subitem category, 21
+    \subitem $\EuScript  {M}$-, 177
+
+  \indexspace
+
+  \item zero object, 133
+
+\end{theindex}
