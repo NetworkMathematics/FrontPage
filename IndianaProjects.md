@@ -54,6 +54,7 @@
 2. ### KnowTex+nLab (with Elif)
    
 This project contained a serious misunderstanding of the abilities of Trouver and has been  removed.(01/27/2026)
+But work is carrying on on Elif's [repo]().
 
 3. ### MathAnnotator for all texts
 
