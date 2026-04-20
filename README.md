@@ -64,7 +64,7 @@ Our new preprint:
 
 * [Math Natural Language Inference: This Should Be Easy!](https://arxiv.org/pdf/2507.23063), V. de Paiva, Q. Gao, H. Hu, P. Kovalev, Y. Liu, L. S. Moss, Z. Qian, 2025 (arXiv)
 
-has been presented at [STARSEM 2025](https://starsem2025.github.io/schedule) by Yikang Liu. The poster is here. The data is in this repo.
+has been presented at [STARSEM 2025](https://starsem2025.github.io/schedule) by Yikang Liu. The poster is [here](https://github.com/NetworkMathematics/FrontPage/blob/main/MathNLI%20Poster-1.pdf). The data is in this [repo]().
      
    
 ## 5. MathLit
