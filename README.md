@@ -2,6 +2,37 @@
 
 ![a joke map of math](https://github.com/NetworkMathematics/FrontPage/blob/main/Mathematistan.jpg "Mathematistan")
 
+## Building the Data Infrastructure for Mathematical Knowledge
+
+The Network Mathematics project addresses a central gap in the scientific data ecosystem: the absence of a unified, open, machine-readable hub connecting and structuring mathematical knowledge.
+
+Mathematics underpins every area of science, yet its knowledge remains fragmented across disconnected resources. High-quality efforts such as [Code4Math](https://code4math.org/), [Lean Mathlib](), [nLab](), L-Functions and Modular Forms Database [(LFMDB)](), [Stacks Project](), [OEIS](), and many others, provide essential pieces of the puzzle, but they operate in isolation. Formal libraries, computational databases, and expository texts each capture different aspects of mathematics, with no shared semantic layer linking them.
+
+Network Mathematics is a call to build that layer.
+
+The project develops methods to extract, represent, and interconnect mathematical concepts, statements, and arguments as a structured network derived from existing corpora. It combines:
+
+* large-scale natural language processing of mathematical texts,
+* knowledge graph construction capturing dependencies and conceptual structure, and
+* category-theoretic principles to organize and relate these structures in a coherent way.
+
+The aim is not to replace existing systems, but to make them interoperable: to connect informal exposition, formal proof libraries, and specialized databases into a shared, machine-accessible framework.
+
+This need is already being recognized internationally. The [Mathematical Research Data Initiative (MaRDI)](https://www.mardi4nfdi.de/about/mission), part of Germany’s NFDI program, is developing research data infrastructure for mathematics. The Hausdorff Institute Trimester Program on [Prospects of Formal Mathematics](ww.mathematics.uni-bonn.de/him/programs/past/him-trimester-program-prospects-of-formal-mathematics) has further highlighted the convergence of formalization, computation, and mathematical practice as a defining direction for the field.
+
+What is still missing is a unifying semantic layer that connects these efforts and makes their knowledge usable at scale.
+
+In this emerging ecosystem, Code4Math provides a vital community hub linking mathematicians, developers, and open-source projects. Network Mathematics complements this by providing the data backbone: a structured, interoperable representation of mathematical knowledge on which tools, visualizations, and AI systems can be built.
+
+A first step in this direction is [MathGloss](https://mathgloss.github.io/MathGloss/), an open, structured glossary of mathematical concepts designed as a seed dataset. The broader goal is to scale from glossaries to full corpora, capturing not only definitions but also the logical, conceptual, and argumentative structure of mathematics.
+
+The opportunity is clear.
+Just as curated datasets enabled breakthroughs in structural biology, a coordinated effort to build open, structured mathematical knowledge infrastructure can unlock the next generation of AI-assisted discovery across science.
+
+Network Mathematics is an invitation to build this infrastructure—collaboratively, openly, and at scale.
+
+## What have we done so far?
+
 Network Mathematics is an ambitious project that applies modern tools from Natural Language Processing (NLP) and Artificial Intelligence (AI) to the mathematical literature. The goal is to bridge the gap between informal mathematics—as written in papers, textbooks, and lecture notes—and formal mathematics, as represented in proof assistants and theorem provers. In short, we aim to help machines read and reason about mathematics written in natural language.
 (Some early thoughts about the project can be found in older [blog posts](https://github.com/NetworkMathematics/FrontPage/blob/main/blogposts.md).)
 
