@@ -18,7 +18,7 @@ The project develops methods to extract, represent, and interconnect mathematica
 
 The aim is not to replace existing systems, but to make them interoperable: to connect informal exposition, formal proof libraries, and specialized databases into a shared, machine-accessible framework.
 
-This need is already being recognized internationally. The [Mathematical Research Data Initiative (MaRDI)](https://www.mardi4nfdi.de/about/mission), part of Germany’s NFDI program, is developing research data infrastructure for mathematics. The Hausdorff Institute Trimester Program on [Prospects of Formal Mathematics](ww.mathematics.uni-bonn.de/him/programs/past/him-trimester-program-prospects-of-formal-mathematics) has further highlighted the convergence of formalization, computation, and mathematical practice as a defining direction for the field.
+This need is already being recognized internationally. The [Mathematical Research Data Initiative (MaRDI)](https://www.mardi4nfdi.de/about/mission), part of Germany’s NFDI program, is developing research data infrastructure for mathematics. The short talk by Christian Baar describes it. The Hausdorff Institute Trimester Program on [Prospects of Formal Mathematics](ww.mathematics.uni-bonn.de/him/programs/past/him-trimester-program-prospects-of-formal-mathematics) has further highlighted the convergence of formalization, computation, and mathematical practice as a defining direction for the field.
 
 What is still missing is a unifying semantic layer that connects these efforts and makes their knowledge usable at scale.
 
@@ -91,7 +91,7 @@ Try it at [https://gaoq111.github.io/math_concept_annotation/](https://gaoq111.g
 MathNLI explores Natural Language Inference (NLI) over mathematical text.
 It extends earlier work on NLI for everyday language, in collaboration with Katerina Kalouli, Larry Moss, Hai Hu, and Alex Webb ([Curing the SICK and Other NLI Maladies](https://direct.mit.edu/coli/article/49/1/199/113488/Curing-the-SICK-and-Other-NLI-Maladies), 2023).
 
-Our new preprint:
+Our preprint:
 
 * [Math Natural Language Inference: This Should Be Easy!](https://arxiv.org/pdf/2507.23063), V. de Paiva, Q. Gao, H. Hu, P. Kovalev, Y. Liu, L. S. Moss, Z. Qian, 2025 (arXiv)
 
@@ -110,6 +110,7 @@ Current materials include:
 
 * [Discrete Mathematics: An Open Introduction](https://github.com/vcvpaiva/DMLevin), Levin
 
+The project is paused by lack of volunteers and lack of clear gains to be had.
 
 Meanwhile, a different kind of effort is presented by Andrea Ferreira in 
 
