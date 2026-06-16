@@ -4,19 +4,27 @@
   
    Our LLM-extracted database of math terms needs a name. I've suggested TAC-DB before, but I'm now suggesting MathTermDB, because no one knows what is TAC, and while we want to do this math concept extraction for Category Theory, eventually it would be good to do it for all of mathematics. But our MathTermDB (for CT or for math)  needs more work.
 
-   Our work, described in the spreadsheet in https://docs.google.com/spreadsheets/d/1jLzuvuaLIcRTIQPwQ65fL3o9gzasplJ52eEUFJhhMSk/edit?gid=1391563495#gid=1391563495
+ 2.  Our work, described in the spreadsheet in https://docs.google.com/spreadsheets/d/1jLzuvuaLIcRTIQPwQ65fL3o9gzasplJ52eEUFJhhMSk/edit?gid=1391563495#gid=1391563495
   has several problems.
 
-   Let us try to describe the plan and what doesn't work.
+ 3.  Let us try to describe the plan and what doesn't work.
 
-   The plan was:
-   * 1. to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS. (just as in our NLI project described in   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf))
-   * Then collect the terms into a database to be distributed to the public.
-   * These would be compared to terms in 3 human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
-   * the criteria for soundness of the mathematical concepts 'discovered' by the LLMs is their showing up in the human-curated resouces.
-   * augmentation with the definition of the term is desired.
+   a. The plan was to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS.
+   (just as we did in our NLI project described in   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf))
    
-   Our first joint work on [LLM-extracted concepts](https://arxiv.org/pdf/2309.00642), like [Mathoscope](http://www.jacobcollard.com/mathoscope/), did not produce a glossary of mathematical concepts, which was our original goal. (While MathGloss did produce a small (<5K) database of math concepts.)
+   b.  Then collect the terms into a database to be distributed to the public.
+   
+   c. These would be compared to terms in 3 human-curated math resources (Wikidata, nLab, PlanetMath), which would be counted as evidence for a term being a good mathematical concept.
+   
+   d. The criteria for soundness of the mathematical concepts 'discovered' by the LLMs were their showing up in the human-curated resources.
+   
+   e. Augmentation with the definition of the term is necessary for a real glossary.
+
+   f. Since we ended up with too many concepts discovered by the LLMs, far too many to be accepted as the basic concepts of Category Theory, we decided to change our corpus to "Chicago Notes". This corpus is shorter (only 611 sentences). Since it was manually created by Horowitz, with specific, listed concepts, it was supposed to be a golden standard for the concepts belonging to it.
+
+   g. However, similarly to what happened in Parmesan when considering "author's keywords" and these were summarizing of the whole paper, but usually did not show up in the abstracts as strings, the concepts humanly  considered were not defined with the same words in the body of the text.
+   
+   Our first joint work on [LLM-extracted concepts](https://arxiv.org/pdf/2309.00642), like [Mathoscope](http://www.jacobcollard.com/mathoscope/), did not produce a glossary of mathematical concepts, which was our original goal. We pointed at some of the difficulties and started some guidelines, but not  set of entities was decided upon. (MathGloss did produce a small (<5K) database of math concepts, but it has no provenance, so no text introducing the terms.)
    
    A real glossary should be useful not only for NLI but also for math summarization, math question-answering, and to help formalization and informalization projects, amongst other applications.
 
@@ -51,7 +59,7 @@
    2. MathGloss almost 5K terms (without official definitions, the definition is implicitly the sum of the information in the human-curated resources HCR)
    3. Wolfram MathWorld 13k concepts, which can onlybe used indirectly through Wikidata, per license regulations.
   
-2. ### KnowTex+nLab (with Elif)
+3. ### KnowTex+nLab (with Elif)
    
 This project contained a serious misunderstanding of the abilities of Trouver and has been  removed.(01/27/2026)
 But work is carrying on on Elif's [repo]().
