@@ -7,7 +7,7 @@
    Our work, described in the spreadsheet in https://docs.google.com/spreadsheets/d/1jLzuvuaLIcRTIQPwQ65fL3o9gzasplJ52eEUFJhhMSk/edit?gid=1391563495#gid=1391563495
   has several problems.
 
-   Let us try to describe the [plan](https://docs.google.com/document/d/1jodfe-GR7Iz6AfOXsdsDMnGaAU28xGsu8xiG1UUPXns/edit?tab=t.0#heading=h.qxoy9sgivi53) and what doesn't work.
+   Let us try to describe the plan and what doesn't work.
 
    The plan was:
    * to extract mathematical concepts from the TAC abstracts corpus of 3K sentences, using several different LLMS. (just as in our NLI project described in   [Math Natural Language Inference: this should be easy!](https://aclanthology.org/2025.starsem-1.14.pdf))
