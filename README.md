@@ -36,7 +36,11 @@ Network Mathematics is an invitation to build this infrastructure—collaborativ
 Network Mathematics is an ambitious project that applies modern tools from Natural Language Processing (NLP) and Artificial Intelligence (AI) to the mathematical literature. The goal is to bridge the gap between informal mathematics—as written in papers, textbooks, and lecture notes—and formal mathematics, as represented in proof assistants and theorem provers. In short, we aim to help machines read and reason about mathematics written in natural language.
 (Some early thoughts about the project can be found in older [blog posts](https://github.com/NetworkMathematics/FrontPage/blob/main/blogposts.md).)
 
-We are developing several interconnected subprojects, see below. For a brief overview, see the [slides](https://github.com/NetworkMathematics/FrontPage/blob/main/NetMath2.pdf) (March2026).
+We are developing several interconnected subprojects, see below. For a brief overview, see these [slides](https://github.com/NetworkMathematics/FrontPage/blob/main/NetMath2.pdf) (March2026) OR the following talks:
+1. https://www.youtube.com/watch?v=Wiwm872T1Yk  "Network Mathematics for All, May 2024
+2. https://www.youtube.com/watch?v=SE5vIeBEGWI "Network mathematics", Mar 2024
+3. https://www.youtube.com/watch?v=DAuB6F90KtQ "Network Mathematics for Beginners", Nov 2023
+4. https://www.youtube.com/watch?v=C7NBGlJb2DQ "AI tools for Better Math",  June 13, 2024
 
 ## 1. Mathoscope (formerly Parmesan)
 
